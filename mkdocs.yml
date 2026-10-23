@@ -42,10 +42,6 @@ plugins:
         - en
   - tags
   - glightbox
-  - git-revision-date-localized:
-      type: date
-      locale: nb
-      fallback_to_build_date: true
   - i18n:
       docs_structure: folder
       fallback_to_default: true
@@ -57,6 +53,10 @@ plugins:
         - locale: en
           name: English
           build: false
+  - git-revision-date-localized:
+      type: date
+      locale: nb
+      fallback_to_build_date: true
 
 markdown_extensions:
   - admonition
