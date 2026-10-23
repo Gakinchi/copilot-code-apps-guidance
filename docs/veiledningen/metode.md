@@ -41,6 +41,10 @@ Hver side starter med hvem den er for, i én eller to setninger. Så kommer innh
 
 Code Apps og Copilot Managed Runtime er to produkter. Hver påstand sier hvilken apptype den gjelder og hvem aktøren er. [Produktene, hva er hva](../start/produktene.md) er regelsiden; [Språkpolicy](../norge/sprakpolicy.md) sier hvordan vi skriver navnene.
 
+## Selskapsutgaver
+
+Veiledningen er generell med vilje. En virksomhet som skal bruke den, lager en egen utgave: et privat repo som tar dette repoet inn som git-submodul og legger virksomhetens egne sider oppå, med miljønavn, grupper, policyverdier, godkjente datakilder og kontaktpunkter. Rammeverket oppdateres ved å flytte submodulen; virksomhetens sider blir liggende. Mønsteret, mappestrukturen og MkDocs-oppsettet for en slik utgave er beskrevet i `editions/README.md` i repoet. Ingen selskapsspesifikt innhold ligger her.
+
 ## Bidra
 
 Repoet er åpent. Rett feil med en pull request eller meld dem som issue. En rettelse av et faktum skal ha en lenke til kilden; en rettelse av språk trenger ingen begrunnelse. Beslutninger om struktur og metode ligger i [beslutningsloggen](../adr/index.md), og nye beslutninger skrives som nye poster der, aldri som endringer av gamle.
