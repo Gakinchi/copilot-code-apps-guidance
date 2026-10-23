@@ -171,6 +171,6 @@ nav:
   - Caser:
       - caser/index.md
   - Om veiledningen:
-      - Metode og kildemerking: om/metode.md
+      - Metode og kildemerking: veiledningen/metode.md
       - Ordliste: ordliste.md
       - Beslutningslogg: adr/index.md

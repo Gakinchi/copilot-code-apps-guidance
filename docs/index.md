@@ -11,7 +11,7 @@ hide:
 
 Denne veiledningen beskriver hvordan en norsk virksomhet tar i bruk GitHub Copilot sammen med Power Apps Code Apps, fra beslutningen om å starte til utviklernes daglige arbeid. Den følger samme inndeling som Microsofts [Power Platform guidance](https://learn.microsoft.com/power-platform/guidance/) og GitHubs [Roll out GitHub Copilot at scale](https://docs.github.com/en/copilot/tutorials/roll-out-at-scale), men dekker kombinasjonen av de to produktene, som ingen av dem gjør alene, og tar hensyn til norske forhold: EU AI Act, GDPR og EU-datagrensen, lisensiering og språk.
 
-Alt som står her er enten lest på Microsoft Learn eller GitHub Docs, eller kjørt i en lab før det ble skrevet. Hver side har en dato og en kildemerking. Les [Metode og kildemerking](om/metode.md) for hva merkene betyr.
+Alt som står her er enten lest på Microsoft Learn eller GitHub Docs, eller kjørt i en lab før det ble skrevet. Hver side har en dato og en kildemerking. Les [Metode og kildemerking](veiledningen/metode.md) for hva merkene betyr.
 
 ## Hvem er du?
 
