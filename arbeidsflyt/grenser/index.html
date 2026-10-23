@@ -85,7 +85,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#grenser" class="md-skip">
+        <a href="#grenser-hva-copilot-ikke-far-gjre-i-dette-oppsettet" class="md-skip">
           Gå til innhold
         </a>
       
@@ -2022,6 +2022,24 @@
         
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Grenser
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
@@ -2038,6 +2056,91 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Innholdsliste">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Innholdsliste
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+      
+        <li class="md-nav__item">
+  <a href="#grensene" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Grensene
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hvorfor-agenten-ikke-er-problemet" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Hvorfor agenten ikke er problemet
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#slik-gjr-du-grensene-til-kontekst" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Slik gjør du grensene til kontekst
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#claude-code-som-alternativ" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Claude Code som alternativ
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#neste-steg" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Neste steg
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#kilder" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Kilder
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -3272,6 +3375,80 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Innholdsliste
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+      
+        <li class="md-nav__item">
+  <a href="#grensene" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Grensene
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hvorfor-agenten-ikke-er-problemet" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Hvorfor agenten ikke er problemet
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#slik-gjr-du-grensene-til-kontekst" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Slik gjør du grensene til kontekst
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#claude-code-som-alternativ" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Claude Code som alternativ
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#neste-steg" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Neste steg
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#kilder" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Kilder
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -3285,16 +3462,107 @@
                 
                   
 
+  <nav class="md-tags">
+    
+      
+      
+      
+      
+        <span class="md-tag">arkitekt</span>
+      
+    
+      
+      
+      
+      
+        <span class="md-tag">utvikler</span>
+      
+    
+  </nav>
+
 
   
   
 
 
-<h1 id="grenser">Grenser<a class="headerlink" href="#grenser" title="Permanent link">¶</a></h1>
-<div class="admonition info">
-<p class="admonition-title">Kommer</p>
-<p>Denne siden er planlagt, men ikke skrevet ennå. Strukturen ligger i beslutningsloggen under <em>Om veiledningen</em>.</p>
-</div>
+<h1 id="grenser-hva-copilot-ikke-far-gjre-i-dette-oppsettet">Grenser: hva Copilot ikke får gjøre i dette oppsettet<a class="headerlink" href="#grenser-hva-copilot-ikke-far-gjre-i-dette-oppsettet" title="Permanent link">¶</a></h1>
+<p><strong>Hvem denne siden er for:</strong> utvikleren som skal vite hvor streken går, og arkitekten som skal skrive streken inn i instruksjonsfilen og policyene. Noen av grensene kan håndheves teknisk; de fleste er arbeidsregler teamet holder. Begge typer står her, merket.</p>
+<h2 id="grensene">Grensene<a class="headerlink" href="#grensene" title="Permanent link">¶</a></h2>
+<table>
+<thead>
+<tr>
+<th>Agenten får ikke</th>
+<th>Håndheves av</th>
+<th>Hvorfor</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Kjøre <code>pa app push</code> mot Test eller Prod</td>
+<td>Teknisk: ingen Environment Maker i de miljøene; pipelinen har identiteten</td>
+<td>Sone 3 krever pipeline og godkjenning. <a href="../../styring/soner/">Soner</a></td>
+</tr>
+<tr>
+<td>Legge til en connector eller datakilde uten at du har godkjent det eksplisitt</td>
+<td>Arbeidsregel, og instruksjonsfilen</td>
+<td>En connector er en styringsbeslutning. Review fanger det, DLP stopper det, men du skal fange det før</td>
+</tr>
+<tr>
+<td>Endre <code>power.config.json</code> for hånd</td>
+<td>Arbeidsregel</td>
+<td>Filen skrives av <code>pa</code>. Håndredigering gir en app som peker feil</td>
+</tr>
+<tr>
+<td>Lese eller skrive hemmeligheter, <code>.env</code>, nøkler</td>
+<td>Teknisk: ingen hemmeligheter i repoet; push protection. Arbeidsregel: aldri i prompt</td>
+<td><a href="../../sikkerhet/hemmeligheter/">Hemmeligheter</a></td>
+</tr>
+<tr>
+<td>Endre DLP, environment groups, miljøinnstillinger eller deling</td>
+<td>Teknisk: utvikleren har ikke admin-rolle; agenten arver utviklerens rettigheter</td>
+<td>Agenten kan ikke gjøre mer enn deg. Sørg for at du ikke kan gjøre det heller, fra denne maskinen</td>
+</tr>
+<tr>
+<td>Kjøre med <code>--allow-all</code> i et repo med brukere</td>
+<td>Arbeidsregel</td>
+<td>Godkjenning per handling er det som gjør at du leser. <code>--allow-all</code> er for engangsmapper</td>
+</tr>
+<tr>
+<td>Merge en pull request</td>
+<td>Teknisk: branch-beskyttelse</td>
+<td>En agent åpner PR-er; mennesker merger</td>
+</tr>
+<tr>
+<td>Installere plugins eller MCP-servere utenfor listen i instruksjonsfilen</td>
+<td>Teknisk delvis: MCP-register i Copilot-policyen. Arbeidsregel for resten</td>
+<td><a href="../../sikkerhet/copilot-policyer/">Copilot-policyer</a></td>
+</tr>
+<tr>
+<td>Love noe om preview-funksjoner i kode eller dokumentasjon</td>
+<td>Arbeidsregel</td>
+<td>R5 i <a href="../../strategi/risikoregister/">risikoregisteret</a></td>
+</tr>
+<tr>
+<td>Bruke en modell utenfor policyen</td>
+<td>Teknisk: modellpolicy i GitHub</td>
+<td>Dataresidens og avtaler. <a href="../../norge/gdpr-og-eu-datagrense/">GDPR og EU-datagrense</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="hvorfor-agenten-ikke-er-problemet">Hvorfor agenten ikke er problemet<a class="headerlink" href="#hvorfor-agenten-ikke-er-problemet" title="Permanent link">¶</a></h2>
+<p>Agenten arver utviklerens identitet og rettigheter. Alt den kan gjøre galt mot plattformen, kunne utvikleren gjort. Den reelle forskjellen er hastighet og mengde: en agent som har lov til å pushe til prod, gjør det på sekunder, uten den pausen en utvikler tar. Grensene over er derfor først og fremst grenser for hva utviklerens konto kan, og så arbeidsregler for det kontoen kan, men ikke skal.</p>
+<h2 id="slik-gjr-du-grensene-til-kontekst">Slik gjør du grensene til kontekst<a class="headerlink" href="#slik-gjr-du-grensene-til-kontekst" title="Permanent link">¶</a></h2>
+<p>Instruksjonsfilen skal ha grensene som en liste under «Do not», slik at agenten ser dem i hver økt. <a href="../instructions-og-agents/">Instruksjoner og agenter</a> har teksten. Det hjelper ikke mot en agent som ignorerer dem, men det stopper de fleste forslagene før de kommer.</p>
+<h2 id="claude-code-som-alternativ">Claude Code som alternativ<a class="headerlink" href="#claude-code-som-alternativ" title="Permanent link">¶</a></h2>
+<p>Claude Code har en tillatelsesmodell per verktøy og kommando som kan settes i prosjektets innstillinger, slik at «aldri <code>pa app push</code>» kan være en regel, ikke bare en setning. Bruk den der Claude Code er i bruk. Copilot CLI har hooks som kan sjekke kommandoer mot en liste; det er den tilsvarende mekanismen.</p>
+<h2 id="neste-steg">Neste steg<a class="headerlink" href="#neste-steg" title="Permanent link">¶</a></h2>
+<p><a href="../instructions-og-agents/">Instruksjoner og agenter</a> for å skrive grensene inn. <a href="../review-regler/">Review-regler</a> for det som slipper gjennom.</p>
+<h2 id="kilder">Kilder<a class="headerlink" href="#kilder" title="Permanent link">¶</a></h2>
+<ul>
+<li>GitHub Docs, Administer Copilot CLI for your enterprise: https://docs.github.com/en/copilot/how-tos/copilot-cli/administer-copilot-cli-for-your-enterprise (lest 2026-10-23)</li>
+<li>GitHub Docs, Overview of customizing GitHub Copilot CLI (hooks): https://docs.github.com/en/copilot/how-tos/copilot-cli/customize-copilot/overview (lest 2026-10-23)</li>
+<li>Microsoft Learn, Publish code apps with a service principal: https://learn.microsoft.com/power-apps/developer/code-apps/how-to/use-service-principal (lest 2026-10-23)</li>
+</ul>
 
 
 
@@ -3315,7 +3583,7 @@
     <span class="md-icon" title="Sist oppdatert">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"></path></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="23. oktober 2026 19:01:33 UTC">23. oktober 2026</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="23. oktober 2026 20:17:36 UTC">23. oktober 2026</span>
   </span>
 
     

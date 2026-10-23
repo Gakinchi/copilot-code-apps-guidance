@@ -24,7 +24,7 @@
     
     
       
-        <title>Repo konvensjoner - GitHub Copilot og Power Apps Code Apps: veiledning for innføring</title>
+        <title>Repo-konvensjoner - GitHub Copilot og Power Apps Code Apps: veiledning for innføring</title>
       
     
     
@@ -85,7 +85,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#repo-konvensjoner" class="md-skip">
+        <a href="#repo-konvensjoner-for-en-code-app" class="md-skip">
           Gå til innhold
         </a>
       
@@ -121,7 +121,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Repo konvensjoner
+              Repo-konvensjoner
             
           </span>
         </div>
@@ -1826,6 +1826,24 @@
         
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Repo-konvensjoner
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
@@ -1842,6 +1860,124 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Innholdsliste">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Innholdsliste
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+      
+        <li class="md-nav__item">
+  <a href="#struktur" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Struktur
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hva-som-committes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Hva som committes
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#linjeskift-og-format" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Linjeskift og format
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#node-versjon" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Node-versjon
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#branches-og-pull-requests" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Branches og pull requests
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#readme" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        README
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#navn" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Navn
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#neste-steg" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Neste steg
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#kilder" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Kilder
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -3272,6 +3408,113 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Innholdsliste
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+      
+        <li class="md-nav__item">
+  <a href="#struktur" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Struktur
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hva-som-committes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Hva som committes
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#linjeskift-og-format" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Linjeskift og format
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#node-versjon" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Node-versjon
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#branches-og-pull-requests" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Branches og pull requests
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#readme" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        README
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#navn" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Navn
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#neste-steg" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Neste steg
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#kilder" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Kilder
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -3285,16 +3528,108 @@
                 
                   
 
+  <nav class="md-tags">
+    
+      
+      
+      
+      
+        <span class="md-tag">utvikler</span>
+      
+    
+  </nav>
+
 
   
   
 
 
-<h1 id="repo-konvensjoner">Repo konvensjoner<a class="headerlink" href="#repo-konvensjoner" title="Permanent link">¶</a></h1>
-<div class="admonition info">
-<p class="admonition-title">Kommer</p>
-<p>Denne siden er planlagt, men ikke skrevet ennå. Strukturen ligger i beslutningsloggen under <em>Om veiledningen</em>.</p>
+<h1 id="repo-konvensjoner-for-en-code-app">Repo-konvensjoner for en Code App<a class="headerlink" href="#repo-konvensjoner-for-en-code-app" title="Permanent link">¶</a></h1>
+<p><strong>Hvem denne siden er for:</strong> utvikleren som oppretter repoet, og teamlederen som skal kunne lese alle teamets repoer likt. Konvensjonene er få, og de finnes fordi agenten leser repoet som kontekst: et ryddig repo gir bedre forslag.</p>
+<h2 id="struktur">Struktur<a class="headerlink" href="#struktur" title="Permanent link">¶</a></h2>
+<div class="highlight"><pre><span></span><code>&lt;app-navn&gt;/
+  .github/
+    copilot-instructions.md     regler for Copilot i dette repoet
+    workflows/publish.yml       CI og publisering til Dev
+    instructions/               valgfritt: stibaserte instruksjoner
+    agents/                     valgfritt: egne agenter
+  AGENTS.md                     kort, for alle agentverktøy (Copilot CLI, Claude Code)
+  README.md                     hva appen er, miljø, eier, hvordan kjøre
+  power.config.json             skrives av pa; committes
+  generated/                    skrives av pa add data-source; committes
+  src/                          koden
+  tests/
+  package.json  vite.config.ts  tsconfig.json  .nvmrc  .gitignore  .editorconfig
+</code></pre></div>
+<h2 id="hva-som-committes">Hva som committes<a class="headerlink" href="#hva-som-committes" title="Permanent link">¶</a></h2>
+<table>
+<thead>
+<tr>
+<th>Fil</th>
+<th>Commit</th>
+<th>Hvorfor</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>power.config.json</code></td>
+<td>Ja</td>
+<td>Miljø-ID, app-ID og connection-ID-er. Identifikatorer, ikke hemmeligheter. Uten den kan ingen andre kjøre <code>pa app run</code> mot samme app</td>
+</tr>
+<tr>
+<td><code>generated/</code></td>
+<td>Ja</td>
+<td>Typene for connectorene; agenten trenger dem som kontekst, og CI trenger dem for bygg</td>
+</tr>
+<tr>
+<td><code>dist/</code></td>
+<td>Nei</td>
+<td>Bygges i CI</td>
+</tr>
+<tr>
+<td><code>.env*</code></td>
+<td>Nei</td>
+<td>Hemmeligheter, se <a href="../../sikkerhet/hemmeligheter/">Hemmeligheter</a>. Legg <code>.env.example</code> uten verdier</td>
+</tr>
+<tr>
+<td><code>node_modules/</code></td>
+<td>Nei</td>
+<td></td>
+</tr>
+<tr>
+<td>Copilot-økter og logger</td>
+<td>Nei</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<div class="admonition note">
+<p class="admonition-title">power.config.json og flere miljøer</p>
+<p>Filen peker på ett miljø. Teamets repo peker på teamets Dev-miljø; utviklere som vil kjøre mot eget miljø, bruker <code>PA_CLI_ENVIRONMENT_ID</code> lokalt i stedet for å endre filen. Promotering til Test og Prod går via solution og pipeline, ikke via å bytte miljø i filen. Se <a href="../../drift/alm-for-code-apps/">ALM</a>.</p>
 </div>
+<h2 id="linjeskift-og-format">Linjeskift og format<a class="headerlink" href="#linjeskift-og-format" title="Permanent link">¶</a></h2>
+<p>LF i hele repoet (<code>.gitattributes</code> med <code>* text=auto eol=lf</code>). <code>.editorconfig</code> med to mellomrom og UTF-8. Prettier og ESLint fra malen, kjørt i CI. Agenten følger det repoet gjør; er repoet inkonsekvent, blir forslagene det også.</p>
+<h2 id="node-versjon">Node-versjon<a class="headerlink" href="#node-versjon" title="Permanent link">¶</a></h2>
+<p><code>.nvmrc</code> eller <code>engines</code> i <code>package.json</code> med LTS-versjonen pipelinen bruker. Samme versjon lokalt og i CI.</p>
+<h2 id="branches-og-pull-requests">Branches og pull requests<a class="headerlink" href="#branches-og-pull-requests" title="Permanent link">¶</a></h2>
+<ul>
+<li><code>main</code> er beskyttet: PR påkrevd, minst én reviewer, CI grønn, ingen direkte push.</li>
+<li>Branch per oppgave: <code>feat/avdelingsfilter</code>, <code>fix/tom-liste</code>.</li>
+<li>PR-mal i <code>.github/pull_request_template.md</code> med tre felt: oppgaven, planen agenten fulgte, hva som avvek fra planen. <a href="../daglig-loop/">Daglig loop</a> steg 7.</li>
+<li>Commit-meldinger på det språket teamet skriver kode-kommentarer på; vær konsekvent.</li>
+</ul>
+<h2 id="readme">README<a class="headerlink" href="#readme" title="Permanent link">¶</a></h2>
+<p>Ti linjer: hva appen gjør, hvem som eier den, hvilket miljø den kjører i (navn, ikke ID), hvordan kjøre lokalt, hvor pipelinen er. README er det første agenten leser, så den skal være sann.</p>
+<h2 id="navn">Navn<a class="headerlink" href="#navn" title="Permanent link">¶</a></h2>
+<p>Repo-navn lik app-navnet i Power Apps, med små bokstaver og bindestrek. Solution-prefikset i Power Platform står i README. Ingen kundenavn i repo-navn i et konsulenthus; bruk kundens kode.</p>
+<h2 id="neste-steg">Neste steg<a class="headerlink" href="#neste-steg" title="Permanent link">¶</a></h2>
+<p><a href="../instructions-og-agents/">Instruksjonsfiler</a> for innholdet i <code>copilot-instructions.md</code> og <code>AGENTS.md</code>. <a href="../../drift/ci-cd/">CI/CD</a> for workflow-filen.</p>
+<h2 id="kilder">Kilder<a class="headerlink" href="#kilder" title="Permanent link">¶</a></h2>
+<ul>
+<li>GitHub Docs, Adding repository custom instructions: https://docs.github.com/en/copilot/how-tos/configure-custom-instructions/add-repository-instructions (lest 2026-10-23)</li>
+<li>Microsoft Learn, Power Apps code apps architecture (power.config.json): https://learn.microsoft.com/power-apps/developer/code-apps/architecture (lest 2026-10-23)</li>
+<li>Konvensjonene er de som er brukt i labkjøringene og workshopene i 2026.</li>
+</ul>
 
 
 
@@ -3315,7 +3650,7 @@
     <span class="md-icon" title="Sist oppdatert">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"></path></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="23. oktober 2026 19:01:33 UTC">23. oktober 2026</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="23. oktober 2026 20:17:36 UTC">23. oktober 2026</span>
   </span>
 
     
