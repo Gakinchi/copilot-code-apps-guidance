@@ -38,7 +38,7 @@ theme:
 plugins:
   - search:
       lang:
-        - no
+        - "no"
         - en
   - tags
   - glightbox
