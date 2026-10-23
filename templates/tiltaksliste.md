@@ -197,7 +197,7 @@
 
 | # | Oppgave | Eier | Frist | Avhengighet | Sjekk |
 |---|---|---|---|---|---|
-| P3.1 | Beslutning: CoE Starter Kit eller native PPAC | [Plattformeier + CoE] | [dato] | P1.6 | Beslutning dokumentert |
+| P3.1 | Beslutning: inventar og bruk via Power Platform admin center (Inventory, Usage); CoE Starter Kit vedlikeholdes ikke lenger | [Plattformeier + CoE] | [dato] | P1.6 | Beslutning dokumentert |
 | P3.2 | Kostnadsrapportering per forretningsenhet (seter, lisenser, forbruk) | [Plattform-admin + økonomi] | [dato] | Ingen | Første rapport levert |
 | P3.3 | Årlig gjennomgang: sonematrise, DLP, Copilot-policyer, KPI-er, AI Act-attestasjon | [Plattformeier] | [dato] | Ingen | Agenda dokumentert; første gjennomgang holdt |
 | P3.4 | Revurdering av hver omvei i styringsplanen §6 | [Eier per omvei] | [dato] | Ingen | Beslutning: fortsett / erstatt / ny omvei |

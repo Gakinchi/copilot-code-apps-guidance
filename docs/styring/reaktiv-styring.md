@@ -21,7 +21,7 @@ Inventaret er listen over alt som kjører, hvem som eier det og hvor. For Code A
 
 Avviket mellom første og andre kilde er det interessante: en Code App i inventaret uten et repo i organisasjonen betyr at koden ligger på en laptop. Et repo uten app betyr at noen bygger utenfor plattformen, eller har sluttet.
 
-Verktøykassen har et skript som henter app-listen per miljø og lagrer den som CSV; se [Skript](../verktoykasse/skript.md). Kjør det månedlig, og sammenlign med forrige kjøring.
+Inntil videre: eksporter inventaret til CSV fra Inventory-siden i admin center, månedlig, og sammenlign med forrige eksport. Et skript som gjør det samme fra terminalen kommer i [Skript](../verktoykasse/skript.md) i milepæl 3. Se [Power Platform-metrikker](../maaling/power-platform-metrics.md) for hva inventaret inneholder.
 
 ## Signalene å reagere på
 

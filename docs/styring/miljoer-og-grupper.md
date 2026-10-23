@@ -51,7 +51,7 @@ Et personlig utviklermiljø har Dataverse, så Code Apps med Dataverse-tabeller 
 4. Lag pilotgruppen, flytt pilotens utviklermiljøer dit, slå Code Apps på der.
 5. Først nå: DLP. Se [DLP og Code Apps](../sikkerhet/dlp-og-code-apps.md).
 
-Verktøykassen har et skript som gjør steg 1 til 4 med placeholders; se [Skript](../verktoykasse/skript.md).
+Et skript som gjør steg 1 til 4 med plassholdere kommer i [Skript](../verktoykasse/skript.md) i milepæl 3; inntil da er klikkene i admin center beskrevet på [Hvem får bygge](hvem-faar-bygge.md).
 
 ## Neste steg
 
