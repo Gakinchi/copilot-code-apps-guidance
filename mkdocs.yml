@@ -1,0 +1,176 @@
+site_name: "GitHub Copilot og Power Apps Code Apps: veiledning for innføring"
+site_description: "Adopsjonsveiledning for norske virksomheter som vil ta i bruk GitHub Copilot sammen med Power Apps Code Apps: strategi, styring, arbeidsflyt og måling."
+site_url: https://gakinchi.github.io/copilot-code-apps-guidance/
+repo_url: https://github.com/Gakinchi/copilot-code-apps-guidance
+repo_name: copilot-code-apps-guidance
+edit_uri: edit/main/docs/
+copyright: "Dennis Chi, recursion.no. Innholdet er veiledning, ikke juridisk rådgivning. Verifiser alltid mot Microsoft Learn og GitHub Docs før du lover noe."
+
+theme:
+  name: material
+  language: nb
+  features:
+    - navigation.sections
+    - navigation.indexes
+    - navigation.top
+    - navigation.footer
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - content.tabs.link
+    - toc.follow
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-night
+        name: Bytt til mørkt tema
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-sunny
+        name: Bytt til lyst tema
+
+plugins:
+  - search:
+      lang:
+        - no
+        - en
+  - tags
+  - glightbox
+  - git-revision-date-localized:
+      type: date
+      locale: nb
+      fallback_to_build_date: true
+  - i18n:
+      docs_structure: folder
+      fallback_to_default: true
+      languages:
+        - locale: nb
+          name: Norsk
+          default: true
+          build: true
+        - locale: en
+          name: English
+          build: false
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.snippets:
+      base_path:
+        - .
+      check_paths: true
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+
+nav:
+  - Hjem: index.md
+  - Start her:
+      - start/index.md
+      - For ledelsen: start/leder.md
+      - For arkitekten og CoE: start/arkitekt.md
+      - For utvikleren: start/utvikler.md
+      - Produktene, hva er hva: start/produktene.md
+      - Seks måter å bygge en app: start/seks-mater.md
+  - Strategi:
+      - strategi/index.md
+      - Forretningscase: strategi/forretningscase.md
+      - Risikoregister: strategi/risikoregister.md
+      - Lisensmodell: strategi/lisensmodell.md
+      - KPI-er: strategi/kpier.md
+      - Plan 30-90-180: strategi/30-90-180.md
+  - Planlegg:
+      - planlegg/index.md
+      - Modenhetsvurdering: planlegg/modenhetsvurdering.md
+      - Roller og ansvar: planlegg/roller.md
+      - Greenfield eller brownfield: planlegg/greenfield-vs-brownfield.md
+      - Pilotgruppe: planlegg/pilotgruppe.md
+      - Utrullingsplan: planlegg/utrullingsplan.md
+  - Sikkerhet:
+      - sikkerhet/index.md
+      - Dataflyt til modellen: sikkerhet/dataflyt-til-modellen.md
+      - Copilot-policyer: sikkerhet/copilot-policyer.md
+      - Hemmeligheter: sikkerhet/hemmeligheter.md
+      - Identitet og tilgang: sikkerhet/identitet-tilgang.md
+      - DLP og Code Apps: sikkerhet/dlp-og-code-apps.md
+  - Styring:
+      - styring/index.md
+      - Soner: styring/soner.md
+      - Miljøer og grupper: styring/miljoer-og-grupper.md
+      - Hvem får bygge: styring/hvem-faar-bygge.md
+      - Copilot i skala: styring/copilot-i-skala.md
+      - Reaktiv styring: styring/reaktiv-styring.md
+      - Beslutninger (ADR): styring/beslutninger.md
+  - Drift og ALM:
+      - drift/index.md
+      - ALM for Code Apps: drift/alm-for-code-apps.md
+      - CI/CD: drift/ci-cd.md
+      - Overvåking og kapasitet: drift/overvaking-og-kapasitet.md
+      - Oppdateringstakt: drift/oppdateringstakt.md
+  - Arbeidsflyt:
+      - arbeidsflyt/index.md
+      - Hurtigstart: arbeidsflyt/hurtigstart.md
+      - Oppsett av maskinen: arbeidsflyt/oppsett-maskin.md
+      - Daglig loop: arbeidsflyt/daglig-loop.md
+      - Repo-konvensjoner: arbeidsflyt/repo-konvensjoner.md
+      - Instruksjonsfiler: arbeidsflyt/instructions-og-agents.md
+      - Prompter: arbeidsflyt/prompter.md
+      - Skills og plugins: arbeidsflyt/skills-og-plugins.md
+      - Rammeverk: arbeidsflyt/rammeverk.md
+      - Datakilder: arbeidsflyt/datakilder.md
+      - Review-regler: arbeidsflyt/review-regler.md
+      - Grenser: arbeidsflyt/grenser.md
+      - Feilsøking: arbeidsflyt/feilsoking.md
+  - Beredskap og opplæring:
+      - beredskap/index.md
+      - Læringssti: beredskap/laeringssti.md
+      - Workshop-oppsett: beredskap/workshop-oppsett.md
+      - AI-kompetanse: beredskap/ai-kompetanse.md
+      - Forutsetninger: beredskap/forutsetninger.md
+  - Fellesskap:
+      - fellesskap/index.md
+      - Champions: fellesskap/champions.md
+      - Kanal og wiki: fellesskap/kanal-og-wiki.md
+      - Prompt- og skill-bibliotek: fellesskap/prompt-og-skill-bibliotek.md
+  - Måling:
+      - maaling/index.md
+      - KPI-ark: maaling/kpi-ark.md
+      - Copilot-metrikker: maaling/copilot-metrics.md
+      - Power Platform-metrikker: maaling/power-platform-metrics.md
+      - Pilotevaluering: maaling/pilot-evaluering.md
+  - Norske forhold:
+      - norge/index.md
+      - EU AI Act, rollen som deployer: norge/eu-ai-act-rolle.md
+      - GDPR og EU-datagrense: norge/gdpr-og-eu-datagrense.md
+      - Offentlig sektor: norge/offentlig-sektor.md
+      - Språkpolicy: norge/sprakpolicy.md
+  - Verktøykasse:
+      - verktoykasse/index.md
+      - Styringsplan (mal): verktoykasse/maler/styringsplan.md
+      - Sonematrise (mal): verktoykasse/maler/sonematrise.md
+      - Tiltaksliste (mal): verktoykasse/maler/tiltaksliste.md
+      - Skript: verktoykasse/skript.md
+  - Caser:
+      - caser/index.md
+  - Om veiledningen:
+      - Metode og kildemerking: om/metode.md
+      - Ordliste: ordliste.md
+      - Beslutningslogg: adr/index.md
