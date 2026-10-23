@@ -43,7 +43,7 @@ CLI-en kan lese filer, kjøre kommandoer og nå URL-er, hver gang etter at utvik
 5. MCP: register eller liste satt, pluginens servere inkludert.
 6. Content exclusions satt for IDE-bruk, med forståelsen av at CLI-en ikke dekkes.
 7. Audit log: noen leser den månedlig, se [tiltakslisten](../verktoykasse/maler/tiltaksliste.md) R.M.3.
-8. Alt over notert i [Copilot-policy-malen](../verktoykasse/index.md) (kommer i milepæl 2) med dato og eier.
+8. Alt over notert i [Copilot-policy-malen](../verktoykasse/maler/copilot-policy.md) med dato og eier.
 
 ## Neste steg
 

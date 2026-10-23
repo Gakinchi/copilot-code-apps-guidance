@@ -16,11 +16,11 @@ kilde: EGEN TEST
 | [Styringsplan](maler/styringsplan.md) | Arkitekten | Når sonemodell, DLP, roller og Copilot-policyer skal vedtas som ett dokument | `templates/styringsplan.md` |
 | [Sonematrise](maler/sonematrise.md) | Admin og makere | Daglig oppslagsverk for hva som er tillatt i hvilken sone | `templates/sonematrise.md` |
 | [Tiltaksliste](maler/tiltaksliste.md) | Prosjektleder og admin | Den sekvenserte arbeidslisten for de første 180 dagene og de løpende rutinene | `templates/tiltaksliste.md` |
-| Modenhetsvurdering | Arkitekten | Kommer i milepæl 2 | |
-| Copilot-policy | Copilot-admin | Kommer i milepæl 2 | |
-| KPI-ark | Ledelsen | Kommer i milepæl 2 | |
-| Risikoregister | Ledelsen | Kommer i milepæl 2 | |
-| Pilotevaluering | Arkitekten | Kommer i milepæl 2 | |
+| [Modenhetsvurdering](../planlegg/modenhetsvurdering.md) | Arkitekten | Formiddagen før piloten: ni dimensjoner, nivå 0 til 4, bevis per rad | Tabellen på siden |
+| [Copilot-policy](maler/copilot-policy.md) | Copilot-admin | Når seter tildeles: hver innstilling med verdi, eier og dato | `templates/copilot-policy.md` |
+| [KPI-ark](../maaling/kpi-ark.md) | CoE-lederen og ledelsen | Ukentlig i piloten, månedlig etterpå | Tabellen på siden |
+| [Risikoregister](../strategi/risikoregister.md) | Ledelsen | Før piloten, og ved hver hendelse | Tabellen på siden |
+| [Pilotevaluering](../maaling/pilot-evaluering.md) | Ledelsen og CoE-lederen | Dag 90: kriterier, grunnlag, beslutningsregel | Tabellen på siden |
 | `copilot-instructions.md`, `AGENTS.md`, prompt-filer | Utvikleren | Kommer i milepæl 3 | |
 
 De tre første er oversatt og utvidet fra en governance-metode som er brukt på norske tenanter i 2026. Utvidelsene er radene og punktene som gjelder Code Apps og GitHub Copilot; resten er Microsofts anbefalte modell.
