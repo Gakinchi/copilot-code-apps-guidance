@@ -21,7 +21,7 @@ kilde: EGEN TEST
 | [KPI-ark](../maaling/kpi-ark.md) | CoE-lederen og ledelsen | Ukentlig i piloten, månedlig etterpå | Tabellen på siden |
 | [Risikoregister](../strategi/risikoregister.md) | Ledelsen | Før piloten, og ved hver hendelse | Tabellen på siden |
 | [Pilotevaluering](../maaling/pilot-evaluering.md) | Ledelsen og CoE-lederen | Dag 90: kriterier, grunnlag, beslutningsregel | Tabellen på siden |
-| `copilot-instructions.md`, `AGENTS.md`, prompt-filer | Utvikleren | Kommer i milepæl 3 | |
+| [`copilot-instructions.md`, `AGENTS.md`, skill](../arbeidsflyt/instructions-og-agents.md) | Utvikleren | Ved oppsett av hvert Code App-repo | `prompts/copilot-instructions.md`, `prompts/AGENTS.md`, `prompts/skills/add-connector/SKILL.md` |
 
 De tre første er oversatt og utvidet fra en governance-metode som er brukt på norske tenanter i 2026. Utvidelsene er radene og punktene som gjelder Code Apps og GitHub Copilot; resten er Microsofts anbefalte modell.
 
