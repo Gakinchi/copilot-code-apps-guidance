@@ -1,11 +1,11 @@
 ---
-title: Pilot evaluering
+title: Pilotevaluering
 tags: []
 verifisert: 2026-10-23
 kilde: UTKAST
 ---
 
-# Pilot evaluering
+# Pilotevaluering
 
 !!! info "Kommer"
-    Denne siden er planlagt, men ikke skrevet ennå. Strukturen ligger i beslutningsloggen under *Om veiledningen*.
+    Planlagt i milepæl 2, ikke skrevet ennå.

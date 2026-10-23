@@ -1,11 +1,11 @@
 ---
-title: Gdpr og eu datagrense
+title: GDPR og EU-datagrense
 tags: []
 verifisert: 2026-10-23
 kilde: UTKAST
 ---
 
-# Gdpr og eu datagrense
+# GDPR og EU-datagrense
 
 !!! info "Kommer"
-    Denne siden er planlagt, men ikke skrevet ennå. Strukturen ligger i beslutningsloggen under *Om veiledningen*.
+    Planlagt i milepæl 2, ikke skrevet ennå.
