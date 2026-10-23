@@ -85,7 +85,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#risikoregister" class="md-skip">
+        <a href="#risikoregister-det-ledelsen-ma-ta-stilling-til" class="md-skip">
           Gå til innhold
         </a>
       
@@ -636,6 +636,24 @@
         
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Risikoregister
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
@@ -652,6 +670,69 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Innholdsliste">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Innholdsliste
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+      
+        <li class="md-nav__item">
+  <a href="#registeret" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Registeret
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#risikoene-som-er-annerledes-med-ai" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Risikoene som er annerledes med AI
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#det-som-ikke-er-en-risiko-selv-om-det-fles-sann" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Det som ikke er en risiko, selv om det føles sånn
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#neste-steg" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Neste steg
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -3242,6 +3323,58 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Innholdsliste
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+      
+        <li class="md-nav__item">
+  <a href="#registeret" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Registeret
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#risikoene-som-er-annerledes-med-ai" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Risikoene som er annerledes med AI
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#det-som-ikke-er-en-risiko-selv-om-det-fles-sann" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Det som ikke er en risiko, selv om det føles sånn
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#neste-steg" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Neste steg
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -3255,16 +3388,178 @@
                 
                   
 
+  <nav class="md-tags">
+    
+      
+      
+      
+      
+        <span class="md-tag">arkitekt</span>
+      
+    
+      
+      
+      
+      
+        <span class="md-tag">leder</span>
+      
+    
+  </nav>
+
 
   
   
 
 
-<h1 id="risikoregister">Risikoregister<a class="headerlink" href="#risikoregister" title="Permanent link">¶</a></h1>
-<div class="admonition info">
-<p class="admonition-title">Kommer</p>
-<p>Denne siden er planlagt, men ikke skrevet ennå. Strukturen ligger i beslutningsloggen under <em>Om veiledningen</em>.</p>
-</div>
+<h1 id="risikoregister-det-ledelsen-ma-ta-stilling-til">Risikoregister: det ledelsen må ta stilling til<a class="headerlink" href="#risikoregister-det-ledelsen-ma-ta-stilling-til" title="Permanent link">¶</a></h1>
+<p><strong>Hvem denne siden er for:</strong> ledelsen og den som eier risikoregisteret i virksomheten. Hver risiko har en eier, et tiltak og en side i veiledningen som beskriver tiltaket. Kopier tabellen inn i virksomhetens eget register fra <a href="../../verktoykasse/">verktøykassen</a> når malen kommer, og fyll inn navn.</p>
+<h2 id="registeret">Registeret<a class="headerlink" href="#registeret" title="Permanent link">¶</a></h2>
+<table>
+<thead>
+<tr>
+<th>#</th>
+<th>Risiko</th>
+<th>Produkt / aktør</th>
+<th>Sannsynlighet uten tiltak</th>
+<th>Konsekvens</th>
+<th>Tiltak</th>
+<th>Eier</th>
+<th>Side</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>R1</td>
+<td>Kode, prompter eller filer med forretningshemmeligheter sendes til en modell utenfor virksomheten</td>
+<td>Copilot, utvikleren</td>
+<td>Høy</td>
+<td>Høy</td>
+<td>Content exclusions for sensitive repoer; policy for hvilke modeller som er tillatt; opplæring i hva en prompt inneholder; databehandleravtale lest</td>
+<td>Copilot-admin, personvernombud</td>
+<td><a href="../../sikkerhet/dataflyt-til-modellen/">Dataflyt til modellen</a>, <a href="../../norge/gdpr-og-eu-datagrense/">GDPR og EU-datagrense</a></td>
+</tr>
+<tr>
+<td>R2</td>
+<td>Hemmeligheter (nøkler, tilkoblingsstrenger) havner i repo, i <code>power.config.json</code> eller i en prompt</td>
+<td>Utvikleren</td>
+<td>Middels</td>
+<td>Høy</td>
+<td>Secret scanning i GitHub; regel om at Code Apps aldri bruker egne hemmeligheter, bare connectorer; review</td>
+<td>Copilot-admin, teamleder</td>
+<td><a href="../../sikkerhet/hemmeligheter/">Hemmeligheter</a></td>
+</tr>
+<tr>
+<td>R3</td>
+<td>AI-skrevet kode merges uten reell gjennomlesning</td>
+<td>Utvikleren, teamet</td>
+<td>Høy</td>
+<td>Middels</td>
+<td>Branch-beskyttelse, pull request med reviewer, tester i CI, review-regler for AI-skrevet kode</td>
+<td>Teamleder</td>
+<td><a href="../../arbeidsflyt/review-regler/">Review-regler</a></td>
+</tr>
+<tr>
+<td>R4</td>
+<td>En Code App kobles til en datakilde DLP ikke tillater, eller omgår styringen</td>
+<td>Utvikleren, Copilot</td>
+<td>Lav</td>
+<td>Høy</td>
+<td>DLP håndheves av plattformen ved kjøring; regler i instruksjonsfilen; test av DLP før pilot</td>
+<td>Plattform-admin</td>
+<td><a href="../../sikkerhet/dlp-og-code-apps/">DLP og Code Apps</a></td>
+</tr>
+<tr>
+<td>R5</td>
+<td>Apper bygges på preview-funksjoner som endres eller forsvinner</td>
+<td>Arkitekten</td>
+<td>Middels</td>
+<td>Middels</td>
+<td>Produktstatus sjekkes før løfter; preview brukes bare i sone 1 og 2; kildemerking i intern dokumentasjon</td>
+<td>Arkitekten</td>
+<td><a href="../../start/seks-mater/">Seks måter å bygge en app</a>, <a href="../../drift/oppdateringstakt/">Oppdateringstakt</a></td>
+</tr>
+<tr>
+<td>R6</td>
+<td>CLI, plugin eller SDK endrer seg, og interne guider blir feil</td>
+<td>Alle</td>
+<td>Høy</td>
+<td>Lav</td>
+<td>Daterte guider; ny kjøring av hurtigstarten ved hovedversjoner; stale-sjekk kvartalsvis</td>
+<td>CoE</td>
+<td><a href="../../veiledningen/metode/">Metode</a></td>
+</tr>
+<tr>
+<td>R7</td>
+<td>Sluttbrukere mangler lisens, og appen stopper i produksjon</td>
+<td>Lisensansvarlig</td>
+<td>Middels</td>
+<td>Middels</td>
+<td>Lisenssjekk per bruker før deling; auto-claim vurdert; overvåking</td>
+<td>Lisensansvarlig</td>
+<td><a href="../lisensmodell/">Lisensmodell</a></td>
+</tr>
+<tr>
+<td>R8</td>
+<td>Regulatoriske plikter under EU AI Act og GDPR har ingen eier</td>
+<td>Ledelsen</td>
+<td>Middels</td>
+<td>Høy</td>
+<td>Rolle som deployer dokumentert; artikkel 4-opplæring; klassifisering av nye apper; personvernombud involvert</td>
+<td>Etterlevelsesansvarlig</td>
+<td><a href="../../norge/eu-ai-act-rolle/">EU AI Act</a></td>
+</tr>
+<tr>
+<td>R9</td>
+<td>Apper uten eier etter at utvikleren slutter</td>
+<td>Teamleder</td>
+<td>Middels</td>
+<td>Middels</td>
+<td>Repo i organisasjonens GitHub, ikke personlig konto; eier i solution; rutine for foreldreløse apper</td>
+<td>Plattform-admin</td>
+<td><a href="../../styring/reaktiv-styring/">Reaktiv styring</a></td>
+</tr>
+<tr>
+<td>R10</td>
+<td>Kompetansen forvitrer: utviklere som ikke lenger forstår koden agenten skrev</td>
+<td>Teamleder</td>
+<td>Middels</td>
+<td>Middels</td>
+<td>Review-regler som krever forklaring; opplæring; champions; måling av support-spørsmål</td>
+<td>Adopsjonsleder</td>
+<td><a href="../../beredskap/ai-kompetanse/">AI-kompetanse</a></td>
+</tr>
+<tr>
+<td>R11</td>
+<td>Kostnadene for Copilot-kreditter eller pay-as-you-go løper fra budsjettet</td>
+<td>Lisensansvarlig</td>
+<td>Middels</td>
+<td>Lav</td>
+<td>Måling i pilot før plan velges; usage metrics ukentlig; forbruksgrenser</td>
+<td>Lisensansvarlig</td>
+<td><a href="../kpier/">KPI-er</a></td>
+</tr>
+<tr>
+<td>R12</td>
+<td>Styringsendring (ny DLP-policy) suspenderer flyter og apper i produksjon</td>
+<td>Plattform-admin</td>
+<td>Middels</td>
+<td>Høy</td>
+<td>Forhåndsvis effekt før publisering; akseptert risiko signert per flyt</td>
+<td>Plattform-admin</td>
+<td><a href="../../sikkerhet/dlp-og-code-apps/">DLP og Code Apps</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="risikoene-som-er-annerledes-med-ai">Risikoene som er annerledes med AI<a class="headerlink" href="#risikoene-som-er-annerledes-med-ai" title="Permanent link">¶</a></h2>
+<p>R1, R3 og R10 er de nye. De andre finnes uansett hvem som skriver koden. Legg merke til at ingen av de tre løses med teknologi alene: R1 trenger en policy og en samtale med personvernombudet, R3 trenger en arbeidsflyt teamet faktisk følger, R10 trenger opplæring og en kultur der man spør.</p>
+<h2 id="det-som-ikke-er-en-risiko-selv-om-det-fles-sann">Det som ikke er en risiko, selv om det føles sånn<a class="headerlink" href="#det-som-ikke-er-en-risiko-selv-om-det-fles-sann" title="Permanent link">¶</a></h2>
+<ul>
+<li><strong>At Copilot «finner på» en connector.</strong> Plattformen avviser den ved kjøring. Det er irriterende, ikke farlig.</li>
+<li><strong>At appen kjører i brukerens nettleser.</strong> Det gjør canvas-apper også. Det som må håndheves utenfor nettleseren, legges i Dataverse eller en flyt, og det er en designregel, ikke en risiko.</li>
+<li><strong>At utviklere får for mye makt.</strong> Sone 3 krever pipeline og service principal; ingen pusher til produksjon fra laptopen. Se <a href="../../styring/soner/">Soner</a>.</li>
+</ul>
+<h2 id="neste-steg">Neste steg<a class="headerlink" href="#neste-steg" title="Permanent link">¶</a></h2>
+<p><a href="../kpier/">KPI-er</a>: tallene som viser om tiltakene virker. <a href="../30-90-180/">Plan 30-90-180</a>: når hvert tiltak settes i verk.</p>
 
 
 
@@ -3285,7 +3580,7 @@
     <span class="md-icon" title="Sist oppdatert">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"></path></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="23. oktober 2026 19:01:33 UTC">23. oktober 2026</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="23. oktober 2026 19:46:25 UTC">23. oktober 2026</span>
   </span>
 
     
