@@ -24,7 +24,7 @@
     
     
       
-        <title>Ci cd - GitHub Copilot og Power Apps Code Apps: veiledning for innføring</title>
+        <title>CI/CD - GitHub Copilot og Power Apps Code Apps: veiledning for innføring</title>
       
     
     
@@ -85,7 +85,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#ci-cd" class="md-skip">
+        <a href="#cicd-bygg-og-publiser-fra-github-actions" class="md-skip">
           Gå til innhold
         </a>
       
@@ -121,7 +121,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Ci cd
+              CI/CD
             
           </span>
         </div>
@@ -1560,6 +1560,24 @@
         
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    CI/CD
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
@@ -1576,6 +1594,113 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Innholdsliste">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Innholdsliste
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+      
+        <li class="md-nav__item">
+  <a href="#hva-som-skjer" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Hva som skjer
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#forutsetninger-en-gang" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Forutsetninger, én gang
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#workflow-forslag" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Workflow-forslag
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#branch-beskyttelse" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Branch-beskyttelse
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#videre-fra-dev" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Videre fra Dev
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#nar-det-feiler" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Når det feiler
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#neste-steg" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Neste steg
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#kilder" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Kilder
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -3272,6 +3397,102 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Innholdsliste
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+      
+        <li class="md-nav__item">
+  <a href="#hva-som-skjer" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Hva som skjer
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#forutsetninger-en-gang" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Forutsetninger, én gang
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#workflow-forslag" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Workflow-forslag
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#branch-beskyttelse" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Branch-beskyttelse
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#videre-fra-dev" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Videre fra Dev
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#nar-det-feiler" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Når det feiler
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#neste-steg" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Neste steg
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#kilder" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Kilder
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -3285,16 +3506,134 @@
                 
                   
 
+  <nav class="md-tags">
+    
+      
+      
+      
+      
+        <span class="md-tag">arkitekt</span>
+      
+    
+      
+      
+      
+      
+        <span class="md-tag">utvikler</span>
+      
+    
+  </nav>
+
 
   
   
 
 
-<h1 id="ci-cd">Ci cd<a class="headerlink" href="#ci-cd" title="Permanent link">¶</a></h1>
-<div class="admonition info">
-<p class="admonition-title">Kommer</p>
-<p>Denne siden er planlagt, men ikke skrevet ennå. Strukturen ligger i beslutningsloggen under <em>Om veiledningen</em>.</p>
+<h1 id="cicd-bygg-og-publiser-fra-github-actions">CI/CD: bygg og publiser fra GitHub Actions<a class="headerlink" href="#cicd-bygg-og-publiser-fra-github-actions" title="Permanent link">¶</a></h1>
+<p><strong>Hvem denne siden er for:</strong> arkitekten som setter opp pipelinen, og utvikleren som skal forstå hvorfor <code>pa app push</code> fra laptopen er sperret i sone 3. Oppsettet er lite: en service principal, én deling, fire miljøvariabler, én workflow.</p>
+<div class="admonition note">
+<p class="admonition-title">Til verifisering i lab</p>
+<p>Kommandoene og miljøvariablene på denne siden er fra Learn (lest 2026-10-23). Workflow-filen er veiledningens eget forslag og er ikke kjørt mot en tenant ennå. Siden oppdateres med dato og eventuelle avvik når labkjøringen er gjort.</p>
 </div>
+<h2 id="hva-som-skjer">Hva som skjer<a class="headerlink" href="#hva-som-skjer" title="Permanent link">¶</a></h2>
+<pre class="mermaid"><code>flowchart LR
+  PR[Pull request] --&gt; CI[CI: install, lint, test, build]
+  CI --&gt; M[Merge til main]
+  M --&gt; P[Publish-jobb: pa app push --non-interactive til Dev]
+  P --&gt; PP[Power Platform Pipeline: Dev → Test → Prod]</code></pre>
+<p>GitHub Actions eier koden fram til Dev. Power Platform Pipelines eier promoteringen videre. Utviklere pusher aldri direkte til Test eller Prod.</p>
+<h2 id="forutsetninger-en-gang">Forutsetninger, én gang<a class="headerlink" href="#forutsetninger-en-gang" title="Permanent link">¶</a></h2>
+<ol>
+<li><strong>App registration i Entra</strong> med client secret. Noter Application (client) ID, Directory (tenant) ID, og Enterprise Application <strong>object ID</strong> (fra Enterprise applications, ikke App registrations; de er forskjellige).</li>
+<li><strong>Tilgang til miljøet</strong> for service principalen (Application User i målmiljøet).</li>
+<li><strong>Første publisering gjøres av en maker</strong>, interaktivt. Service principalen kan oppdatere en app, ikke opprette den første gangen.</li>
+<li>
+<p><strong>Deling med service principalen</strong>, én gang, fra makerens maskin, ikke i pipelinen:</p>
+<div class="highlight"><pre><span></span><code><span class="go">pa auth login --account &lt;maker-epost&gt;</span>
+<span class="go">pa app share --principal &lt;enterprise-application-object-id&gt; --access edit</span>
+</code></pre></div>
+<p>Miljørettigheter alene gir ikke rett til å oppdatere appen; <code>edit</code>-delingen er det som gjør det.</p>
+</li>
+<li>
+<p><strong>Secrets i GitHub</strong>: <code>PA_CLI_SP_CLIENT_ID</code>, <code>PA_CLI_SP_CLIENT_SECRET</code>, <code>PA_CLI_SP_TENANT_ID</code> som repository eller environment secrets. Aldri i workflow-filen.</p>
+</li>
+</ol>
+<h2 id="workflow-forslag">Workflow-forslag<a class="headerlink" href="#workflow-forslag" title="Permanent link">¶</a></h2>
+<div class="highlight"><pre><span></span><code><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">publish-code-app</span>
+<span class="nt">on</span><span class="p">:</span>
+<span class="w">  </span><span class="nt">push</span><span class="p">:</span>
+<span class="w">    </span><span class="nt">branches</span><span class="p">:</span><span class="w"> </span><span class="p p-Indicator">[</span><span class="nv">main</span><span class="p p-Indicator">]</span>
+
+<span class="nt">jobs</span><span class="p">:</span>
+<span class="w">  </span><span class="nt">publish</span><span class="p">:</span>
+<span class="w">    </span><span class="nt">runs-on</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">ubuntu-latest</span>
+<span class="w">    </span><span class="nt">environment</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">dev</span>
+<span class="w">    </span><span class="nt">steps</span><span class="p">:</span>
+<span class="w">      </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">uses</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">actions/checkout@v4</span>
+<span class="w">      </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">uses</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">actions/setup-node@v4</span>
+<span class="w">        </span><span class="nt">with</span><span class="p">:</span>
+<span class="w">          </span><span class="nt">node-version</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">22</span>
+<span class="w">          </span><span class="nt">cache</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">npm</span>
+<span class="w">      </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">run</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">npm ci</span>
+<span class="w">      </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">run</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">npm test --if-present</span>
+<span class="w">      </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">run</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">npm run build</span>
+<span class="w">      </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">run</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">npm install -g @microsoft/power-apps-cli</span>
+<span class="w">      </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Publish to Dev</span>
+<span class="w">        </span><span class="nt">env</span><span class="p">:</span>
+<span class="w">          </span><span class="nt">PA_CLI_USE_SP_AUTH</span><span class="p">:</span><span class="w"> </span><span class="s">"true"</span>
+<span class="w">          </span><span class="nt">PA_CLI_SP_CLIENT_ID</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">${{ secrets.PA_CLI_SP_CLIENT_ID }}</span>
+<span class="w">          </span><span class="nt">PA_CLI_SP_CLIENT_SECRET</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">${{ secrets.PA_CLI_SP_CLIENT_SECRET }}</span>
+<span class="w">          </span><span class="nt">PA_CLI_SP_TENANT_ID</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">${{ secrets.PA_CLI_SP_TENANT_ID }}</span>
+<span class="w">          </span><span class="nt">PA_CLI_ENVIRONMENT_ID</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">${{ vars.PA_ENVIRONMENT_ID }}</span>
+<span class="w">          </span><span class="nt">PA_CLI_SOLUTION_ID</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">${{ vars.PA_SOLUTION_ID }}</span>
+<span class="w">        </span><span class="nt">run</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">pa app push --non-interactive</span>
+</code></pre></div>
+<p>Tre ting å merke seg:</p>
+<ul>
+<li><code>PA_CLI_USE_SP_AUTH</code> må være strengen <code>true</code> i små bokstaver. <code>CI=true</code> fungerer også, men vær eksplisitt.</li>
+<li>Miljø-ID og solution-ID er ikke hemmeligheter; de kan ligge som variables. Solution-ID må være GUID.</li>
+<li>Pin CLI-versjonen (<code>@microsoft/power-apps-cli@&lt;versjon&gt;</code>) når pipelinen er stabil, og oppdater bevisst. <a href="../oppdateringstakt/">Oppdateringstakt</a>.</li>
+</ul>
+<h2 id="branch-beskyttelse">Branch-beskyttelse<a class="headerlink" href="#branch-beskyttelse" title="Permanent link">¶</a></h2>
+<p>Pipelinen er bare så sikker som veien inn til <code>main</code>. Krev pull request med minst én reviewer, status checks for CI, og ingen direkte push. Det er også her <a href="../../arbeidsflyt/review-regler/">review-reglene</a> for AI-skrevet kode håndheves: en agent kan åpne en pull request, men ikke merge den.</p>
+<h2 id="videre-fra-dev">Videre fra Dev<a class="headerlink" href="#videre-fra-dev" title="Permanent link">¶</a></h2>
+<p>Solutionen med appen flyttes Dev → Test → Prod med Power Platform Pipelines, med godkjenning før Prod i sone 3. Det kan trigges fra maker-portalen eller automatiseres; se <a href="../alm-for-code-apps/">ALM for Code Apps</a>.</p>
+<h2 id="nar-det-feiler">Når det feiler<a class="headerlink" href="#nar-det-feiler" title="Permanent link">¶</a></h2>
+<table>
+<thead>
+<tr>
+<th>Feil</th>
+<th>Vanlig årsak</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Push feiler med tilgangsfeil</td>
+<td>Appen er ikke delt med service principalen med <code>edit</code>, eller feil object ID ble brukt</td>
+</tr>
+<tr>
+<td>Push feiler på solution</td>
+<td>ID-en er ikke en GUID, eller solutionen finnes ikke i målmiljøet</td>
+</tr>
+<tr>
+<td>Push feiler i et miljø uten Dataverse</td>
+<td>Fjern <code>PA_CLI_SOLUTION_ID</code>; appen publiseres uten solution, og kan da ikke promoteres</td>
+</tr>
+<tr>
+<td>Push feiler med «code apps not enabled»</td>
+<td>Environment group-regelen er av for miljøet. Se <a href="../../styring/hvem-faar-bygge/">Hvem får bygge</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="neste-steg">Neste steg<a class="headerlink" href="#neste-steg" title="Permanent link">¶</a></h2>
+<p><a href="../alm-for-code-apps/">ALM for Code Apps</a> for solution-mekanikken. <a href="../../sikkerhet/identitet-tilgang/">Identitet og tilgang</a> for service principalens rettigheter.</p>
+<h2 id="kilder">Kilder<a class="headerlink" href="#kilder" title="Permanent link">¶</a></h2>
+<ul>
+<li>Microsoft Learn, Publish Power Apps code apps with a service principal: https://learn.microsoft.com/power-apps/developer/code-apps/how-to/use-service-principal (lest 2026-10-23)</li>
+<li>Microsoft Learn, Power Apps CLI environment variables: https://learn.microsoft.com/power-apps/developer/code-apps/reference/environment-variables (lest 2026-10-23)</li>
+<li>Microsoft Learn, ALM for code apps (solution targeting in CI/CD): https://learn.microsoft.com/power-apps/developer/code-apps/how-to/alm (lest 2026-10-23)</li>
+<li>Microsoft Learn, GitHub Actions for Microsoft Power Platform: https://learn.microsoft.com/power-platform/alm/devops-github-actions (lest 2026-10-23)</li>
+</ul>
 
 
 
@@ -3315,7 +3654,7 @@
     <span class="md-icon" title="Sist oppdatert">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"></path></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="23. oktober 2026 19:01:33 UTC">23. oktober 2026</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="23. oktober 2026 20:08:02 UTC">23. oktober 2026</span>
   </span>
 
     
