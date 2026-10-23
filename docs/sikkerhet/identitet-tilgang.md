@@ -30,8 +30,10 @@ kilde: PÅ LEARN
 
 **Service principal i sone 3.** Pipelinen trenger en app registration i Entra, lagt til som Application User i målmiljøet med en rolle som kan publisere. Sekreten ligger i GitHub Actions secrets. Utviklere skal ikke ha Environment Maker i prod; de skal ikke kunne pushe forbi pipelinen.
 
-!!! warning "Til verifisering i lab"
-    Den ikke-interaktive innloggingen for `pa` med service principal er beskrevet på Learn for ALM-scenarioer. Veiledningen verifiserer den i [CI/CD](../drift/ci-cd.md) i milepæl 3 og oppdaterer denne siden med de faktiske kommandoene.
+Mekanikken er dokumentert på Learn: makeren deler appen én gang med service principalens Enterprise Application object ID (`pa app share --principal <object-id> --access edit`), og pipelinen setter `PA_CLI_USE_SP_AUTH=true` pluss klient-ID, hemmelighet og tenant-ID som miljøvariabler før `pa app push --non-interactive`. Miljørettigheter alene gir ikke rett til å oppdatere en eksisterende app; delingen er påkrevd. [CI/CD](../drift/ci-cd.md) har hele oppsettet.
+
+!!! note "Til verifisering i lab"
+    Kommandoene over er fra Learn (lest 2026-10-23), ikke kjørt i veiledningens lab ennå. Siden oppdateres med dato når de er kjørt.
 
 ## Copilot-siden
 
@@ -47,4 +49,5 @@ GitHub-identiteten er en annen enn Entra-identiteten, med mindre organisasjonen 
 - Microsoft Learn, Security roles and privileges: https://learn.microsoft.com/power-platform/admin/security-roles-privileges (lest 2026-10-23)
 - Microsoft Learn, Share a code app: https://learn.microsoft.com/power-apps/developer/code-apps/how-to/share-app (lest 2026-10-23)
 - Microsoft Learn, ALM for code apps: https://learn.microsoft.com/power-apps/developer/code-apps/how-to/alm (lest 2026-10-23)
+- Microsoft Learn, Publish Power Apps code apps with a service principal: https://learn.microsoft.com/power-apps/developer/code-apps/how-to/use-service-principal (lest 2026-10-23)
 - Microsoft Learn, Conditional Access for Power Apps: https://learn.microsoft.com/power-platform/admin/restrict-access-online-trusted-ip-rules (lest 2026-10-23)
