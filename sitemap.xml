@@ -1,0 +1,501 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+    <url>
+        <loc>https://gakinchi.github.io/copilot-code-apps-guidance/</loc>
+        <lastmod>2026-10-23</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="nb" href="https://gakinchi.github.io/copilot-code-apps-guidance/"/>
+    </url>
+    <url>
+        <loc>https://gakinchi.github.io/copilot-code-apps-guidance/ordliste/</loc>
+        <lastmod>2026-10-23</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="nb" href="https://gakinchi.github.io/copilot-code-apps-guidance/ordliste/"/>
+    </url>
+    <url>
+        <loc>https://gakinchi.github.io/copilot-code-apps-guidance/adr/</loc>
+        <lastmod>2026-10-23</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="nb" href="https://gakinchi.github.io/copilot-code-apps-guidance/adr/"/>
+    </url>
+    <url>
+        <loc>https://gakinchi.github.io/copilot-code-apps-guidance/adr/0001-mkdocs-material/</loc>
+        <lastmod>2026-10-23</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="nb" href="https://gakinchi.github.io/copilot-code-apps-guidance/adr/0001-mkdocs-material/"/>
+    </url>
+    <url>
+        <loc>https://gakinchi.github.io/copilot-code-apps-guidance/adr/0002-spraakpolicy/</loc>
+        <lastmod>2026-10-23</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="nb" href="https://gakinchi.github.io/copilot-code-apps-guidance/adr/0002-spraakpolicy/"/>
+    </url>
+    <url>
+        <loc>https://gakinchi.github.io/copilot-code-apps-guidance/adr/0003-produktnavn/</loc>
+        <lastmod>2026-10-23</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="nb" href="https://gakinchi.github.io/copilot-code-apps-guidance/adr/0003-produktnavn/"/>
+    </url>
+    <url>
+        <loc>https://gakinchi.github.io/copilot-code-apps-guidance/adr/0004-kildemerking/</loc>
+        <lastmod>2026-10-23</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="nb" href="https://gakinchi.github.io/copilot-code-apps-guidance/adr/0004-kildemerking/"/>
+    </url>
+    <url>
+        <loc>https://gakinchi.github.io/copilot-code-apps-guidance/adr/0005-spor-som-tags/</loc>
+        <lastmod>2026-10-23</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="nb" href="https://gakinchi.github.io/copilot-code-apps-guidance/adr/0005-spor-som-tags/"/>
+    </url>
+    <url>
+        <loc>https://gakinchi.github.io/copilot-code-apps-guidance/arbeidsflyt/</loc>
+        <lastmod>2026-10-23</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="nb" href="https://gakinchi.github.io/copilot-code-apps-guidance/arbeidsflyt/"/>
+    </url>
+    <url>
+        <loc>https://gakinchi.github.io/copilot-code-apps-guidance/arbeidsflyt/daglig-loop/</loc>
+        <lastmod>2026-10-23</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="nb" href="https://gakinchi.github.io/copilot-code-apps-guidance/arbeidsflyt/daglig-loop/"/>
+    </url>
+    <url>
+        <loc>https://gakinchi.github.io/copilot-code-apps-guidance/arbeidsflyt/datakilder/</loc>
+        <lastmod>2026-10-23</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="nb" href="https://gakinchi.github.io/copilot-code-apps-guidance/arbeidsflyt/datakilder/"/>
+    </url>
+    <url>
+        <loc>https://gakinchi.github.io/copilot-code-apps-guidance/arbeidsflyt/feilsoking/</loc>
+        <lastmod>2026-10-23</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="nb" href="https://gakinchi.github.io/copilot-code-apps-guidance/arbeidsflyt/feilsoking/"/>
+    </url>
+    <url>
+        <loc>https://gakinchi.github.io/copilot-code-apps-guidance/arbeidsflyt/grenser/</loc>
+        <lastmod>2026-10-23</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="nb" href="https://gakinchi.github.io/copilot-code-apps-guidance/arbeidsflyt/grenser/"/>
+    </url>
+    <url>
+        <loc>https://gakinchi.github.io/copilot-code-apps-guidance/arbeidsflyt/hurtigstart/</loc>
+        <lastmod>2026-10-23</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="nb" href="https://gakinchi.github.io/copilot-code-apps-guidance/arbeidsflyt/hurtigstart/"/>
+    </url>
+    <url>
+        <loc>https://gakinchi.github.io/copilot-code-apps-guidance/arbeidsflyt/instructions-og-agents/</loc>
+        <lastmod>2026-10-23</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="nb" href="https://gakinchi.github.io/copilot-code-apps-guidance/arbeidsflyt/instructions-og-agents/"/>
+    </url>
+    <url>
+        <loc>https://gakinchi.github.io/copilot-code-apps-guidance/arbeidsflyt/oppsett-maskin/</loc>
+        <lastmod>2026-10-23</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="nb" href="https://gakinchi.github.io/copilot-code-apps-guidance/arbeidsflyt/oppsett-maskin/"/>
+    </url>
+    <url>
+        <loc>https://gakinchi.github.io/copilot-code-apps-guidance/arbeidsflyt/prompter/</loc>
+        <lastmod>2026-10-23</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="nb" href="https://gakinchi.github.io/copilot-code-apps-guidance/arbeidsflyt/prompter/"/>
+    </url>
+    <url>
+        <loc>https://gakinchi.github.io/copilot-code-apps-guidance/arbeidsflyt/rammeverk/</loc>
+        <lastmod>2026-10-23</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="nb" href="https://gakinchi.github.io/copilot-code-apps-guidance/arbeidsflyt/rammeverk/"/>
+    </url>
+    <url>
+        <loc>https://gakinchi.github.io/copilot-code-apps-guidance/arbeidsflyt/repo-konvensjoner/</loc>
+        <lastmod>2026-10-23</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="nb" href="https://gakinchi.github.io/copilot-code-apps-guidance/arbeidsflyt/repo-konvensjoner/"/>
+    </url>
+    <url>
+        <loc>https://gakinchi.github.io/copilot-code-apps-guidance/arbeidsflyt/review-regler/</loc>
+        <lastmod>2026-10-23</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="nb" href="https://gakinchi.github.io/copilot-code-apps-guidance/arbeidsflyt/review-regler/"/>
+    </url>
+    <url>
+        <loc>https://gakinchi.github.io/copilot-code-apps-guidance/arbeidsflyt/skills-og-plugins/</loc>
+        <lastmod>2026-10-23</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="nb" href="https://gakinchi.github.io/copilot-code-apps-guidance/arbeidsflyt/skills-og-plugins/"/>
+    </url>
+    <url>
+        <loc>https://gakinchi.github.io/copilot-code-apps-guidance/beredskap/</loc>
+        <lastmod>2026-10-23</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="nb" href="https://gakinchi.github.io/copilot-code-apps-guidance/beredskap/"/>
+    </url>
+    <url>
+        <loc>https://gakinchi.github.io/copilot-code-apps-guidance/beredskap/ai-kompetanse/</loc>
+        <lastmod>2026-10-23</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="nb" href="https://gakinchi.github.io/copilot-code-apps-guidance/beredskap/ai-kompetanse/"/>
+    </url>
+    <url>
+        <loc>https://gakinchi.github.io/copilot-code-apps-guidance/beredskap/forutsetninger/</loc>
+        <lastmod>2026-10-23</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="nb" href="https://gakinchi.github.io/copilot-code-apps-guidance/beredskap/forutsetninger/"/>
+    </url>
+    <url>
+        <loc>https://gakinchi.github.io/copilot-code-apps-guidance/beredskap/laeringssti/</loc>
+        <lastmod>2026-10-23</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="nb" href="https://gakinchi.github.io/copilot-code-apps-guidance/beredskap/laeringssti/"/>
+    </url>
+    <url>
+        <loc>https://gakinchi.github.io/copilot-code-apps-guidance/beredskap/workshop-oppsett/</loc>
+        <lastmod>2026-10-23</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="nb" href="https://gakinchi.github.io/copilot-code-apps-guidance/beredskap/workshop-oppsett/"/>
+    </url>
+    <url>
+        <loc>https://gakinchi.github.io/copilot-code-apps-guidance/caser/</loc>
+        <lastmod>2026-10-23</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="nb" href="https://gakinchi.github.io/copilot-code-apps-guidance/caser/"/>
+    </url>
+    <url>
+        <loc>https://gakinchi.github.io/copilot-code-apps-guidance/drift/</loc>
+        <lastmod>2026-10-23</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="nb" href="https://gakinchi.github.io/copilot-code-apps-guidance/drift/"/>
+    </url>
+    <url>
+        <loc>https://gakinchi.github.io/copilot-code-apps-guidance/drift/alm-for-code-apps/</loc>
+        <lastmod>2026-10-23</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="nb" href="https://gakinchi.github.io/copilot-code-apps-guidance/drift/alm-for-code-apps/"/>
+    </url>
+    <url>
+        <loc>https://gakinchi.github.io/copilot-code-apps-guidance/drift/ci-cd/</loc>
+        <lastmod>2026-10-23</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="nb" href="https://gakinchi.github.io/copilot-code-apps-guidance/drift/ci-cd/"/>
+    </url>
+    <url>
+        <loc>https://gakinchi.github.io/copilot-code-apps-guidance/drift/oppdateringstakt/</loc>
+        <lastmod>2026-10-23</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="nb" href="https://gakinchi.github.io/copilot-code-apps-guidance/drift/oppdateringstakt/"/>
+    </url>
+    <url>
+        <loc>https://gakinchi.github.io/copilot-code-apps-guidance/drift/overvaking-og-kapasitet/</loc>
+        <lastmod>2026-10-23</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="nb" href="https://gakinchi.github.io/copilot-code-apps-guidance/drift/overvaking-og-kapasitet/"/>
+    </url>
+    <url>
+        <loc>https://gakinchi.github.io/copilot-code-apps-guidance/fellesskap/</loc>
+        <lastmod>2026-10-23</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="nb" href="https://gakinchi.github.io/copilot-code-apps-guidance/fellesskap/"/>
+    </url>
+    <url>
+        <loc>https://gakinchi.github.io/copilot-code-apps-guidance/fellesskap/champions/</loc>
+        <lastmod>2026-10-23</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="nb" href="https://gakinchi.github.io/copilot-code-apps-guidance/fellesskap/champions/"/>
+    </url>
+    <url>
+        <loc>https://gakinchi.github.io/copilot-code-apps-guidance/fellesskap/kanal-og-wiki/</loc>
+        <lastmod>2026-10-23</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="nb" href="https://gakinchi.github.io/copilot-code-apps-guidance/fellesskap/kanal-og-wiki/"/>
+    </url>
+    <url>
+        <loc>https://gakinchi.github.io/copilot-code-apps-guidance/fellesskap/prompt-og-skill-bibliotek/</loc>
+        <lastmod>2026-10-23</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="nb" href="https://gakinchi.github.io/copilot-code-apps-guidance/fellesskap/prompt-og-skill-bibliotek/"/>
+    </url>
+    <url>
+        <loc>https://gakinchi.github.io/copilot-code-apps-guidance/maaling/</loc>
+        <lastmod>2026-10-23</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="nb" href="https://gakinchi.github.io/copilot-code-apps-guidance/maaling/"/>
+    </url>
+    <url>
+        <loc>https://gakinchi.github.io/copilot-code-apps-guidance/maaling/copilot-metrics/</loc>
+        <lastmod>2026-10-23</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="nb" href="https://gakinchi.github.io/copilot-code-apps-guidance/maaling/copilot-metrics/"/>
+    </url>
+    <url>
+        <loc>https://gakinchi.github.io/copilot-code-apps-guidance/maaling/kpi-ark/</loc>
+        <lastmod>2026-10-23</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="nb" href="https://gakinchi.github.io/copilot-code-apps-guidance/maaling/kpi-ark/"/>
+    </url>
+    <url>
+        <loc>https://gakinchi.github.io/copilot-code-apps-guidance/maaling/pilot-evaluering/</loc>
+        <lastmod>2026-10-23</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="nb" href="https://gakinchi.github.io/copilot-code-apps-guidance/maaling/pilot-evaluering/"/>
+    </url>
+    <url>
+        <loc>https://gakinchi.github.io/copilot-code-apps-guidance/maaling/power-platform-metrics/</loc>
+        <lastmod>2026-10-23</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="nb" href="https://gakinchi.github.io/copilot-code-apps-guidance/maaling/power-platform-metrics/"/>
+    </url>
+    <url>
+        <loc>https://gakinchi.github.io/copilot-code-apps-guidance/norge/</loc>
+        <lastmod>2026-10-23</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="nb" href="https://gakinchi.github.io/copilot-code-apps-guidance/norge/"/>
+    </url>
+    <url>
+        <loc>https://gakinchi.github.io/copilot-code-apps-guidance/norge/eu-ai-act-rolle/</loc>
+        <lastmod>2026-10-23</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="nb" href="https://gakinchi.github.io/copilot-code-apps-guidance/norge/eu-ai-act-rolle/"/>
+    </url>
+    <url>
+        <loc>https://gakinchi.github.io/copilot-code-apps-guidance/norge/gdpr-og-eu-datagrense/</loc>
+        <lastmod>2026-10-23</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="nb" href="https://gakinchi.github.io/copilot-code-apps-guidance/norge/gdpr-og-eu-datagrense/"/>
+    </url>
+    <url>
+        <loc>https://gakinchi.github.io/copilot-code-apps-guidance/norge/offentlig-sektor/</loc>
+        <lastmod>2026-10-23</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="nb" href="https://gakinchi.github.io/copilot-code-apps-guidance/norge/offentlig-sektor/"/>
+    </url>
+    <url>
+        <loc>https://gakinchi.github.io/copilot-code-apps-guidance/norge/sprakpolicy/</loc>
+        <lastmod>2026-10-23</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="nb" href="https://gakinchi.github.io/copilot-code-apps-guidance/norge/sprakpolicy/"/>
+    </url>
+    <url>
+        <loc>https://gakinchi.github.io/copilot-code-apps-guidance/planlegg/</loc>
+        <lastmod>2026-10-23</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="nb" href="https://gakinchi.github.io/copilot-code-apps-guidance/planlegg/"/>
+    </url>
+    <url>
+        <loc>https://gakinchi.github.io/copilot-code-apps-guidance/planlegg/greenfield-vs-brownfield/</loc>
+        <lastmod>2026-10-23</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="nb" href="https://gakinchi.github.io/copilot-code-apps-guidance/planlegg/greenfield-vs-brownfield/"/>
+    </url>
+    <url>
+        <loc>https://gakinchi.github.io/copilot-code-apps-guidance/planlegg/modenhetsvurdering/</loc>
+        <lastmod>2026-10-23</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="nb" href="https://gakinchi.github.io/copilot-code-apps-guidance/planlegg/modenhetsvurdering/"/>
+    </url>
+    <url>
+        <loc>https://gakinchi.github.io/copilot-code-apps-guidance/planlegg/pilotgruppe/</loc>
+        <lastmod>2026-10-23</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="nb" href="https://gakinchi.github.io/copilot-code-apps-guidance/planlegg/pilotgruppe/"/>
+    </url>
+    <url>
+        <loc>https://gakinchi.github.io/copilot-code-apps-guidance/planlegg/roller/</loc>
+        <lastmod>2026-10-23</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="nb" href="https://gakinchi.github.io/copilot-code-apps-guidance/planlegg/roller/"/>
+    </url>
+    <url>
+        <loc>https://gakinchi.github.io/copilot-code-apps-guidance/planlegg/utrullingsplan/</loc>
+        <lastmod>2026-10-23</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="nb" href="https://gakinchi.github.io/copilot-code-apps-guidance/planlegg/utrullingsplan/"/>
+    </url>
+    <url>
+        <loc>https://gakinchi.github.io/copilot-code-apps-guidance/sikkerhet/</loc>
+        <lastmod>2026-10-23</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="nb" href="https://gakinchi.github.io/copilot-code-apps-guidance/sikkerhet/"/>
+    </url>
+    <url>
+        <loc>https://gakinchi.github.io/copilot-code-apps-guidance/sikkerhet/copilot-policyer/</loc>
+        <lastmod>2026-10-23</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="nb" href="https://gakinchi.github.io/copilot-code-apps-guidance/sikkerhet/copilot-policyer/"/>
+    </url>
+    <url>
+        <loc>https://gakinchi.github.io/copilot-code-apps-guidance/sikkerhet/dataflyt-til-modellen/</loc>
+        <lastmod>2026-10-23</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="nb" href="https://gakinchi.github.io/copilot-code-apps-guidance/sikkerhet/dataflyt-til-modellen/"/>
+    </url>
+    <url>
+        <loc>https://gakinchi.github.io/copilot-code-apps-guidance/sikkerhet/dlp-og-code-apps/</loc>
+        <lastmod>2026-10-23</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="nb" href="https://gakinchi.github.io/copilot-code-apps-guidance/sikkerhet/dlp-og-code-apps/"/>
+    </url>
+    <url>
+        <loc>https://gakinchi.github.io/copilot-code-apps-guidance/sikkerhet/hemmeligheter/</loc>
+        <lastmod>2026-10-23</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="nb" href="https://gakinchi.github.io/copilot-code-apps-guidance/sikkerhet/hemmeligheter/"/>
+    </url>
+    <url>
+        <loc>https://gakinchi.github.io/copilot-code-apps-guidance/sikkerhet/identitet-tilgang/</loc>
+        <lastmod>2026-10-23</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="nb" href="https://gakinchi.github.io/copilot-code-apps-guidance/sikkerhet/identitet-tilgang/"/>
+    </url>
+    <url>
+        <loc>https://gakinchi.github.io/copilot-code-apps-guidance/start/</loc>
+        <lastmod>2026-10-23</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="nb" href="https://gakinchi.github.io/copilot-code-apps-guidance/start/"/>
+    </url>
+    <url>
+        <loc>https://gakinchi.github.io/copilot-code-apps-guidance/start/arkitekt/</loc>
+        <lastmod>2026-10-23</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="nb" href="https://gakinchi.github.io/copilot-code-apps-guidance/start/arkitekt/"/>
+    </url>
+    <url>
+        <loc>https://gakinchi.github.io/copilot-code-apps-guidance/start/leder/</loc>
+        <lastmod>2026-10-23</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="nb" href="https://gakinchi.github.io/copilot-code-apps-guidance/start/leder/"/>
+    </url>
+    <url>
+        <loc>https://gakinchi.github.io/copilot-code-apps-guidance/start/produktene/</loc>
+        <lastmod>2026-10-23</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="nb" href="https://gakinchi.github.io/copilot-code-apps-guidance/start/produktene/"/>
+    </url>
+    <url>
+        <loc>https://gakinchi.github.io/copilot-code-apps-guidance/start/seks-mater/</loc>
+        <lastmod>2026-10-23</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="nb" href="https://gakinchi.github.io/copilot-code-apps-guidance/start/seks-mater/"/>
+    </url>
+    <url>
+        <loc>https://gakinchi.github.io/copilot-code-apps-guidance/start/utvikler/</loc>
+        <lastmod>2026-10-23</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="nb" href="https://gakinchi.github.io/copilot-code-apps-guidance/start/utvikler/"/>
+    </url>
+    <url>
+        <loc>https://gakinchi.github.io/copilot-code-apps-guidance/strategi/</loc>
+        <lastmod>2026-10-23</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="nb" href="https://gakinchi.github.io/copilot-code-apps-guidance/strategi/"/>
+    </url>
+    <url>
+        <loc>https://gakinchi.github.io/copilot-code-apps-guidance/strategi/30-90-180/</loc>
+        <lastmod>2026-10-23</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="nb" href="https://gakinchi.github.io/copilot-code-apps-guidance/strategi/30-90-180/"/>
+    </url>
+    <url>
+        <loc>https://gakinchi.github.io/copilot-code-apps-guidance/strategi/forretningscase/</loc>
+        <lastmod>2026-10-23</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="nb" href="https://gakinchi.github.io/copilot-code-apps-guidance/strategi/forretningscase/"/>
+    </url>
+    <url>
+        <loc>https://gakinchi.github.io/copilot-code-apps-guidance/strategi/kpier/</loc>
+        <lastmod>2026-10-23</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="nb" href="https://gakinchi.github.io/copilot-code-apps-guidance/strategi/kpier/"/>
+    </url>
+    <url>
+        <loc>https://gakinchi.github.io/copilot-code-apps-guidance/strategi/lisensmodell/</loc>
+        <lastmod>2026-10-23</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="nb" href="https://gakinchi.github.io/copilot-code-apps-guidance/strategi/lisensmodell/"/>
+    </url>
+    <url>
+        <loc>https://gakinchi.github.io/copilot-code-apps-guidance/strategi/risikoregister/</loc>
+        <lastmod>2026-10-23</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="nb" href="https://gakinchi.github.io/copilot-code-apps-guidance/strategi/risikoregister/"/>
+    </url>
+    <url>
+        <loc>https://gakinchi.github.io/copilot-code-apps-guidance/styring/</loc>
+        <lastmod>2026-10-23</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="nb" href="https://gakinchi.github.io/copilot-code-apps-guidance/styring/"/>
+    </url>
+    <url>
+        <loc>https://gakinchi.github.io/copilot-code-apps-guidance/styring/beslutninger/</loc>
+        <lastmod>2026-10-23</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="nb" href="https://gakinchi.github.io/copilot-code-apps-guidance/styring/beslutninger/"/>
+    </url>
+    <url>
+        <loc>https://gakinchi.github.io/copilot-code-apps-guidance/styring/copilot-i-skala/</loc>
+        <lastmod>2026-10-23</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="nb" href="https://gakinchi.github.io/copilot-code-apps-guidance/styring/copilot-i-skala/"/>
+    </url>
+    <url>
+        <loc>https://gakinchi.github.io/copilot-code-apps-guidance/styring/hvem-faar-bygge/</loc>
+        <lastmod>2026-10-23</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="nb" href="https://gakinchi.github.io/copilot-code-apps-guidance/styring/hvem-faar-bygge/"/>
+    </url>
+    <url>
+        <loc>https://gakinchi.github.io/copilot-code-apps-guidance/styring/miljoer-og-grupper/</loc>
+        <lastmod>2026-10-23</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="nb" href="https://gakinchi.github.io/copilot-code-apps-guidance/styring/miljoer-og-grupper/"/>
+    </url>
+    <url>
+        <loc>https://gakinchi.github.io/copilot-code-apps-guidance/styring/reaktiv-styring/</loc>
+        <lastmod>2026-10-23</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="nb" href="https://gakinchi.github.io/copilot-code-apps-guidance/styring/reaktiv-styring/"/>
+    </url>
+    <url>
+        <loc>https://gakinchi.github.io/copilot-code-apps-guidance/styring/soner/</loc>
+        <lastmod>2026-10-23</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="nb" href="https://gakinchi.github.io/copilot-code-apps-guidance/styring/soner/"/>
+    </url>
+    <url>
+        <loc>https://gakinchi.github.io/copilot-code-apps-guidance/veiledningen/metode/</loc>
+        <lastmod>2026-10-23</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="nb" href="https://gakinchi.github.io/copilot-code-apps-guidance/veiledningen/metode/"/>
+    </url>
+    <url>
+        <loc>https://gakinchi.github.io/copilot-code-apps-guidance/verktoykasse/</loc>
+        <lastmod>2026-10-23</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="nb" href="https://gakinchi.github.io/copilot-code-apps-guidance/verktoykasse/"/>
+    </url>
+    <url>
+        <loc>https://gakinchi.github.io/copilot-code-apps-guidance/verktoykasse/skript/</loc>
+        <lastmod>2026-10-23</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="nb" href="https://gakinchi.github.io/copilot-code-apps-guidance/verktoykasse/skript/"/>
+    </url>
+    <url>
+        <loc>https://gakinchi.github.io/copilot-code-apps-guidance/verktoykasse/maler/sonematrise/</loc>
+        <lastmod>2026-10-23</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="nb" href="https://gakinchi.github.io/copilot-code-apps-guidance/verktoykasse/maler/sonematrise/"/>
+    </url>
+    <url>
+        <loc>https://gakinchi.github.io/copilot-code-apps-guidance/verktoykasse/maler/styringsplan/</loc>
+        <lastmod>2026-10-23</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="nb" href="https://gakinchi.github.io/copilot-code-apps-guidance/verktoykasse/maler/styringsplan/"/>
+    </url>
+    <url>
+        <loc>https://gakinchi.github.io/copilot-code-apps-guidance/verktoykasse/maler/tiltaksliste/</loc>
+        <lastmod>2026-10-23</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="nb" href="https://gakinchi.github.io/copilot-code-apps-guidance/verktoykasse/maler/tiltaksliste/"/>
+    </url>
+</urlset>
