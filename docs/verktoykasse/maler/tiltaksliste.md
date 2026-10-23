@@ -1,11 +1,14 @@
 ---
-title: Tiltaksliste
-tags: []
+title: Tiltaksliste (mal)
+tags: [arkitekt]
 verifisert: 2026-10-23
-kilde: UTKAST
+kilde: EGEN TEST
 ---
 
-# Tiltaksliste
+# Tiltaksliste (mal)
 
-!!! info "Kommer"
-    Planlagt i milepæl 1, ikke skrevet ennå.
+Kopier filen `templates/tiltaksliste.md` fra repoet, eller teksten under, og fyll ut hakeparentesene. Forklaring av bruk: [Verktoykasse](../index.md).
+
+---
+
+--8<-- "templates/tiltaksliste.md"

@@ -75,7 +75,8 @@ $deadline = (Get-Date).AddSeconds($Wait)
 while (-not (Test-Path "$tmp.done") -and (Get-Date) -lt $deadline) { Start-Sleep -Milliseconds 500 }
 Start-Sleep -Milliseconds 1200
 [void][W]::SetForegroundWindow($hwnd)
-Start-Sleep -Milliseconds 400
+[void][W]::SetWindowPos($hwnd, [IntPtr](-1), 0, 0, 0, 0, 0x0001 -bor 0x0002 -bor 0x0040)   # HWND_TOPMOST + SWP_SHOWWINDOW: make sure it is on top even when focus-stealing is denied
+Start-Sleep -Milliseconds 600
 $r = New-Object W+RECT
 [void][W]::DwmGetWindowAttribute($hwnd, 9, [ref]$r, [Runtime.InteropServices.Marshal]::SizeOf($r))
 $bmp = New-Object Drawing.Bitmap(($r.R - $r.L), ($r.B - $r.T))
@@ -85,6 +86,7 @@ $dir = Split-Path -Parent $Out; if ($dir -and -not (Test-Path $dir)) { New-Item 
 $full = Join-Path (Resolve-Path -LiteralPath ($dir ? $dir : ".")).Path (Split-Path -Leaf $Out)
 $bmp.Save($full, [Drawing.Imaging.ImageFormat]::Png)
 $w = $bmp.Width; $h = $bmp.Height; $g.Dispose(); $bmp.Dispose()
+[void][W]::SetWindowPos($hwnd, [IntPtr](-2), 0, 0, 0, 0, 0x0001 -bor 0x0002)   # HWND_NOTOPMOST again
 [void][W]::PostMessage($hwnd, 0x0010, [IntPtr]::Zero, [IntPtr]::Zero)   # WM_CLOSE to this window only
 Start-Sleep -Milliseconds 500
 $shell.UndoMinimizeALL()

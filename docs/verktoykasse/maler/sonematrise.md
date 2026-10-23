@@ -1,11 +1,14 @@
 ---
-title: Sonematrise
-tags: []
+title: Sonematrise (mal)
+tags: [arkitekt]
 verifisert: 2026-10-23
-kilde: UTKAST
+kilde: EGEN TEST
 ---
 
-# Sonematrise
+# Sonematrise (mal)
 
-!!! info "Kommer"
-    Planlagt i milepæl 1, ikke skrevet ennå.
+Kopier filen `templates/sonematrise.md` fra repoet, eller teksten under, og fyll ut hakeparentesene. Forklaring av bruk: [Verktoykasse](../index.md).
+
+---
+
+--8<-- "templates/sonematrise.md"
