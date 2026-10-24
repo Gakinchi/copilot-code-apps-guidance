@@ -1837,10 +1837,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#steg-5-godkjenn-planen-og-se-pa" class="md-nav__link">
+  <a href="#steg-5-se-pa-mens-den-skriver-bygger-og-spr" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Steg 5: godkjenn planen og se på
+        Steg 5: se på mens den skriver, bygger og spør
       
     </span>
   </a>
@@ -3503,10 +3503,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#steg-5-godkjenn-planen-og-se-pa" class="md-nav__link">
+  <a href="#steg-5-se-pa-mens-den-skriver-bygger-og-spr" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Steg 5: godkjenn planen og se på
+        Steg 5: se på mens den skriver, bygger og spør
       
     </span>
   </a>
@@ -3633,7 +3633,7 @@
 
 
 <h1 id="hurtigstart-fra-tom-mappe-til-publisert-code-app-med-copilot-cli">Hurtigstart: fra tom mappe til publisert Code App med Copilot CLI<a class="headerlink" href="#hurtigstart-fra-tom-mappe-til-publisert-code-app-med-copilot-cli" title="Permanent link">¶</a></h1>
-<p><strong>Hvem denne siden er for:</strong> utvikleren som har gjort <a href="../oppsett-maskin/">Oppsett av maskinen</a> og vil se hele løpet én gang før den daglige loopen. Alt under er kjørt i en lab 2026-10-23 med Copilot CLI 1.0.61, <code>pa</code> 1.3.0 og pluginen <code>code-apps-preview</code> 1.1.0. Siden følger Microsoft Learns quickstart steg for steg, med det som faktisk skjedde i terminalen.</p>
+<p><strong>Hvem denne siden er for:</strong> utvikleren som har gjort <a href="../oppsett-maskin/">Oppsett av maskinen</a> og vil se hele løpet én gang før den daglige loopen. Alt under er kjørt i en lab 2026-10-24 med Copilot CLI 1.0.61, <code>pa</code> 1.3.0 og pluginen <code>code-apps-preview</code> 1.1.0, og terminalbildene er fra den kjøringen. Siden følger Microsoft Learns quickstart steg for steg, med det som faktisk skjedde i terminalen.</p>
 <div class="admonition warning">
 <p class="admonition-title">Før du starter</p>
 <p>Du trenger et miljø der <strong>Enable code apps</strong> er på, maker-rolle i det miljøet, og miljø-ID-en. Finn ID-en i maker-portalen under <strong>Session details</strong>, eller be admin. Uten den stopper steg 4. Se <a href="../../styring/hvem-faar-bygge/">Hvem får bygge</a>.</p>
@@ -3644,8 +3644,7 @@
 copilot<span class="w"> </span>plugin<span class="w"> </span>install<span class="w"> </span>code-apps-preview@power-platform-skills
 </code></pre></div>
 <p>Sjekk: <code>copilot plugin list</code> viser <code>code-apps-preview@power-platform-skills</code>. Start Copilot på nytt hvis økten var åpen.</p>
-<!-- bilde: 01-plugin-install.png -->
-
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../../assets/arbeidsflyt/hurtigstart/01-plugin-install.png" data-desc-position="bottom"><img alt="Terminal: marketplace lagt til, pluginen installert med 15 skills, og plugin list viser code-apps-preview 1.1.0" src="../../assets/arbeidsflyt/hurtigstart/01-plugin-install.png"></a></p>
 <h2 id="steg-2-start-copilot-i-en-tom-mappe">Steg 2: start Copilot i en tom mappe<a class="headerlink" href="#steg-2-start-copilot-i-en-tom-mappe" title="Permanent link">¶</a></h2>
 <div class="highlight"><pre><span></span><code>mkdir<span class="w"> </span>my-app<span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span><span class="nb">cd</span><span class="w"> </span>my-app
 copilot
@@ -3662,38 +3661,34 @@ copilot
 Selecting a person shows their name, title, department, e-mail and phone.
 Deploy to environment: &lt;environment-id&gt;
 </code></pre></div>
-<p>Agenten identifiserer datakilden (Office 365 Users-connectoren), UI-et og interaksjonene, stiller eventuelle oppfølgingsspørsmål og viser en plan.</p>
-<p>Sjekk: planen nevner connectoren du forventet og ingen andre. Nevner den en connector du ikke ba om, si fra før du godkjenner.</p>
-<!-- bilde: 04-plan.png -->
-
-<h2 id="steg-5-godkjenn-planen-og-se-pa">Steg 5: godkjenn planen og se på<a class="headerlink" href="#steg-5-godkjenn-planen-og-se-pa" title="Permanent link">¶</a></h2>
-<p>Når du godkjenner, kjører agenten <code>pa</code>-kommandoene for deg: scaffold av prosjektet, <code>pa app init</code> mot miljøet, <code>pa app add data-source</code> for connectoren, og så skriver den koden.</p>
-<p>Sjekk: mappen har <code>power.config.json</code>, <code>generated/</code> med typet tjeneste for connectoren, og <code>src/</code> med appen. Ingen hemmeligheter i noen av filene.</p>
-<!-- bilde: 05-build.png -->
-
+<p>Agenten går rett på: den leser pluginens egne instruksjoner, lister connections i miljøet, scaffolder prosjektet fra Vite-malen, kjører <code>pa app init</code> mot miljøet og <code>pa app add data-source</code> for Office 365 Users-connectoren. I laben stilte den ingen oppfølgingsspørsmål; beskrivelsen over var nok.</p>
+<p>Sjekk: den eneste connectoren den legger til, er den du ba om. Ser du en annen i terminalen, trykk <code>esc</code> og si fra.</p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../../assets/arbeidsflyt/hurtigstart/04-plan.png" data-desc-position="bottom"><img alt="Terminal: agenten legger til Office 365 Users-connectoren med pa app add data-source og leser de genererte tjenestefilene" src="../../assets/arbeidsflyt/hurtigstart/04-plan.png"></a></p>
+<h2 id="steg-5-se-pa-mens-den-skriver-bygger-og-spr">Steg 5: se på mens den skriver, bygger og spør<a class="headerlink" href="#steg-5-se-pa-mens-den-skriver-bygger-og-spr" title="Permanent link">¶</a></h2>
+<p>Agenten skriver <code>App.tsx</code> og stilene, kjører <code>npm run build</code> og <code>npm run lint</code>, og sjekker at <code>dist/</code> finnes. Så stopper den og spør om den skal deploye til miljøet. Det er det ene spørsmålet du får i hele løpet, og det er bevisst: deploy endrer noe utenfor maskinen din.</p>
+<p>Sjekk: mappen har <code>power.config.json</code>, <code>src/generated/</code> med typet tjeneste for connectoren, <code>.power/schemas/</code> og <code>src/</code> med appen. Ingen hemmeligheter i noen av filene. Ikke svar ja ennå; kjør appen lokalt først (steg 6).</p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../../assets/arbeidsflyt/hurtigstart/05-build.png" data-desc-position="bottom"><img alt="Terminal: bygg og lint er kjørt, og Copilot spør «Ready to deploy to environment …? Deploy now: Yes / No / Other»" src="../../assets/arbeidsflyt/hurtigstart/05-build.png"></a></p>
 <h2 id="steg-6-kjr-lokalt">Steg 6: kjør lokalt<a class="headerlink" href="#steg-6-kjr-lokalt" title="Permanent link">¶</a></h2>
-<p>Agenten spør om du vil kjøre appen. Ja, eller kjør selv:</p>
+<p>I en annen terminal, i appmappen:</p>
 <div class="highlight"><pre><span></span><code>pa<span class="w"> </span>app<span class="w"> </span>run
 </code></pre></div>
 <p>Vite-pluginen skriver ut en <strong>Local Play</strong>-URL. Åpne den i samme nettleserprofil som du er logget inn i Power Platform med. Første gang spør nettleseren om tilgang til lokalt nettverk; godta.</p>
 <p>Sjekk: appen vises i Power Apps-spilleren med data fra tenanten din. Lokalt er det din egen bruker som henter dataene.</p>
-<!-- bilde: 06-run.png -->
-
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../../assets/arbeidsflyt/hurtigstart/06-run.png" data-desc-position="bottom"><img alt="Terminal: pa app run starter Vite, og Power Apps Vite Plugin skriver ut Local Play-URL-en" src="../../assets/arbeidsflyt/hurtigstart/06-run.png"></a></p>
 <h2 id="steg-7-publiser">Steg 7: publiser<a class="headerlink" href="#steg-7-publiser" title="Permanent link">¶</a></h2>
-<p>Agenten spør om den skal deploye. Ja, eller selv:</p>
+<p>Tilbake i Copilot: velg <strong>Yes</strong> på spørsmålet fra steg 5, eller skriv «Deploy the app now with pa app push». Agenten bygger på nytt og kjører <code>pa app push</code>. Vil du heller gjøre det selv:</p>
 <div class="highlight"><pre><span></span><code>npm<span class="w"> </span>run<span class="w"> </span>build
 pa<span class="w"> </span>app<span class="w"> </span>push
 </code></pre></div>
-<p>Sjekk: <code>pa app push</code> svarer «App pushed successfully» med en URL til appen i Power Apps. Åpne make.powerapps.com, velg miljøet, og se appen under Apps med typen Code.</p>
-<!-- bilde: 07-push.png -->
-
+<p>Sjekk: agenten svarer «Deployed successfully to environment …» med en lenke til appen. Åpne make.powerapps.com, velg miljøet, og se appen under Apps med typen Code. I laben fikk den navnet Colleague Directory, satt av agenten ut fra beskrivelsen.</p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../../assets/arbeidsflyt/hurtigstart/07-push.png" data-desc-position="bottom"><img alt="Terminal: Copilot kjører deploy-skillen og svarer Deployed successfully med lenken Open the Colleague Directory" src="../../assets/arbeidsflyt/hurtigstart/07-push.png"></a></p>
 <h2 id="steg-8-del-appen">Steg 8: del appen<a class="headerlink" href="#steg-8-del-appen" title="Permanent link">¶</a></h2>
 <div class="highlight"><pre><span></span><code>pa<span class="w"> </span>app<span class="w"> </span>share<span class="w"> </span>--principal<span class="w"> </span>&lt;bruker@organisasjon.no&gt;<span class="w"> </span>--access<span class="w"> </span>play
 </code></pre></div>
 <p>Eller del fra maker-portalen som for andre apper. Brukeren trenger Power Apps Premium, pay-as-you-go eller App Pass, og egen tilgang til datakilden.</p>
 <p>Sjekk: brukeren åpner URL-en og ser appen. Første gang får brukeren et samtykkevindu som lister connectorene appen bruker.</p>
 <h2 id="hva-som-nettopp-skjedde">Hva som nettopp skjedde<a class="headerlink" href="#hva-som-nettopp-skjedde" title="Permanent link">¶</a></h2>
-<p>Du skrev ingen scaffold, ingen datakobling og ingen deploy-kommando selv. Copilot kjørte <code>pa</code>-CLI-en, og Power Platform ga appen identitet, DLP, revisjonslogg, telemetri og deling. Det er fordelingen i resten av veiledningen: agenten skriver, plattformen håndhever, du reviewer.</p>
+<p>Du skrev ingen scaffold, ingen datakobling og ingen deploy-kommando selv. Legg også merke til at agenten brukte <code>npx --no-install pa …</code>, altså prosjektets egen kopi av CLI-en, ikke den globale; begge virker. Copilot kjørte <code>pa</code>-CLI-en, og Power Platform ga appen identitet, DLP, revisjonslogg, telemetri og deling. Det er fordelingen i resten av veiledningen: agenten skriver, plattformen håndhever, du reviewer.</p>
 <h2 id="hvis-noe-feilet">Hvis noe feilet<a class="headerlink" href="#hvis-noe-feilet" title="Permanent link">¶</a></h2>
 <table>
 <thead>
@@ -3761,7 +3756,7 @@ pa<span class="w"> </span>app<span class="w"> </span>push
     <span class="md-icon" title="Sist oppdatert">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"></path></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="23. oktober 2026 19:38:30 UTC">23. oktober 2026</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="24. oktober 2026 06:39:15 UTC">24. oktober 2026</span>
   </span>
 
     
