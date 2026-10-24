@@ -45,9 +45,9 @@ Les skriptet før du kjører det i en virksomhet; det installerer `pac` CLI hvis
 1. Start `copilot` i en tom mappe.
 2. Kjør `/code-apps-preview:create-app`. Agenten sjekker at Node, `pa` og innloggingen er på plass, og installerer det som mangler.
 3. Beskriv appen i naturlig språk, og ta med miljø-ID-en: «Deploy to environment: <environment-id>».
-4. Agenten identifiserer datakilder, UI og interaksjoner, stiller noen spørsmål og viser en plan.
-5. Når du godkjenner planen, kjører agenten `pa`-kommandoene: scaffold, `pa app init`, legg til connectorer, skriv kode.
-6. Agenten spør om du vil deploye. Svarer du ja, kjører den bygg og `pa app push`, og du får URL-en til appen i Power Apps.
+4. Agenten leser pluginens instruksjoner, lister connections i miljøet og går rett på: scaffold fra Vite-malen, `pa app init`, `pa app add data-source` for connectoren, så koden. I labkjøringen 2026-10-24 stilte den ingen spørsmål underveis.
+5. Den bygger og linter, og stopper med ett spørsmål: «Ready to deploy to environment …?» med valgene Yes, No og Other.
+6. Svarer du Yes, kjører den `pa app push`, og du får lenken til appen i Power Apps.
 
 [Hurtigstart](hurtigstart.md) viser hvert steg med terminalbilde fra en ekte kjøring.
 

@@ -60,6 +60,7 @@ kilde: EGEN TEST
 
 | Symptom | Årsak | Omvei |
 |---|---|---|
+| `copilot -p "/code-apps-preview:create-app …"` (ikke-interaktivt) skriver rå verktøykall og `rg`-feil til terminalen og lager ingenting | Sett 2026-10-24 med Copilot CLI 1.0.61: skillen er lagd for den interaktive økten | Kjør `copilot` interaktivt og skriv `/code-apps-preview:create-app` der |
 | Agenten gjør mer enn du ba om | Oppgaven var for vid, eller `--allow-all` | Plan først; godkjenning per handling; se [Daglig loop](daglig-loop.md) |
 | Agenten kjører i ring på samme feil | Den mangler kontekst den ikke kan få (for eksempel at connectoren er blokkert) | Stopp, sjekk plattformen selv, gi agenten svaret |
 | Forslag bruker en pakke dere ikke har godkjent | Ingen regel i instruksjonsfilen | Legg til «Do not add npm packages without asking» |

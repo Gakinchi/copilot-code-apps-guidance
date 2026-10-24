@@ -10,13 +10,13 @@
 param(
   [Parameter(Mandatory)] [string] $EnvironmentId,
   [string] $Steps = "1,4,6,7",
-  [string] $AppDir = "lab/quickstart/my-app",
+  [string] $AppDir = "C:/Users/gchi/source/code-app-lab/quickstart/my-app",   # outside the repo, so the agent does not read the guidance docs as context
   [string] $OutDir = "lab/quickstart"
 )
 $ErrorActionPreference = 'Stop'
 $root = (Resolve-Path (Join-Path $PSScriptRoot '..')).Path
 $termshot = Join-Path $root 'tools/termshot.ps1'
-$app = Join-Path $root $AppDir
+$app = if ([IO.Path]::IsPathRooted($AppDir)) { $AppDir } else { Join-Path $root $AppDir }
 $out = Join-Path $root $OutDir
 New-Item -ItemType Directory -Force $out | Out-Null
 $want = $Steps -split ',' | ForEach-Object { [int]$_.Trim() }
